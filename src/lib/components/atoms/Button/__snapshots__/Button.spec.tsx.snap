@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Button Component matches snapshot 1`] = `
+<div>
+  <button
+    class="container"
+    data-appearance="primary"
+    data-size="medium"
+  >
+    Snapshot Button
+  </button>
+</div>
+`;

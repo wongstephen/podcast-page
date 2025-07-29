@@ -11,6 +11,7 @@
   --color-gray-400: #ececea; /* Footer social bg */
   --color-gray-500: #5c6266; /* articles text submenu */
   --color-gray-600: #333333; /*  banner text */
+  --color-gray-700: #d0d0d0; /* banner locale border*/
   --color-gray-900: #101820; /* podcast title */
   --color-peach-100: #fff0e8; /* footer label bg */
   --color-peach-200: #e68354; /* footer label text */
@@ -25,6 +26,10 @@
 
   --font-size-sm: 0.875rem; /* 14px */
   --font-size-md: 1rem; /* 16px */
+
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
 
   --background: var(--color-white);
   --foreground: var(--color-black);
