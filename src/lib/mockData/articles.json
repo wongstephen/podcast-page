@@ -1,0 +1,32 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "How to Pick the Best Technology for Your Team",
+      "description": "Choosing call recording software is difficult, to say the least.",
+      "tag": "SALES",
+      "time": 9
+    },
+    {
+      "id": 2,
+      "title": "The Secret to Building a Hybrid Workplace | Part III: Hiring Hybrid Employees",
+      "description": "This article is a part of our series about building the ultimate hybrid workplace.",
+      "tag": "PRODUCT",
+      "time": 3
+    },
+    {
+      "id": 3,
+      "title": "Developing a Hybrid Workforce? Here Are the Top Factors to Consider",
+      "description": "A recent survey conducted by global consulting firm PwC...",
+      "tag": "LIFE",
+      "time": 5
+    },
+    {
+      "id": 4,
+      "title": "Creating a Workplace Built on Collaboration",
+      "description": "This article is a part of our series about building the ultimate hybrid workplace",
+      "tag": "SALES",
+      "time": 9
+    }
+  ]
+}
