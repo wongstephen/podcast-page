@@ -1,5 +1,4 @@
 import { dirname } from 'path';
-import { eslintPluginPrettierRecommended } from 'eslint-plugin-prettier/recommended';
 import { fileURLToPath } from 'url';
 import { FlatCompat } from '@eslint/eslintrc';
 
@@ -11,7 +10,6 @@ const compat = new FlatCompat({
 });
 
 const eslintConfig = [
-  eslintPluginPrettierRecommended,
   ...compat.extends('next/core-web-vitals', 'next/typescript'),
 ];
 
