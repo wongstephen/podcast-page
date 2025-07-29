@@ -1,0 +1,91 @@
+{
+  "common": {
+    "banner": {
+      "phone": "+1 888 240 6923",
+      "contactUs": "Contact us",
+      "login": "Login"
+    },
+    "footer": {
+      "navigation": [
+        {
+          "title": "Why Aircall",
+          "links": [
+            { "text": "Country Coverage", "link": "#" },
+            { "text": "Pricing", "link": "#" },
+            { "text": "Status", "link": "#" },
+            { "text": "Developer", "link": "#" }
+          ]
+        },
+        {
+          "title": "Product",
+          "links": [
+            { "text": "Features", "link": "#" },
+            { "text": "Quality and Reliability", "link": "#" },
+            { "text": "Apps", "link": "#" },
+            { "text": "Request a Demo", "link": "#" }
+          ]
+        }
+      ],
+      "banner": {
+        "copyright": "© Aircall",
+        "privacy": "Privacy",
+        "termsOfUse": "Terms of Use",
+        "siteMap": "Site Map"
+      }
+    },
+    "listenNow": "Listen now",
+    "locales": {
+      "en": "EN",
+      "fr": "FR"
+    },
+    "navigation": {
+      "main": [
+        { "title": "Why Aircall", "links": "#", "key": "whyAircall" },
+        { "title": "Solutions", "links": "#", "key": "solutions" },
+        { "title": "Pricing", "links": "#", "key": "pricing" },
+        { "title": "Resources", "links": "#", "key": "resources" },
+        { "title": "Partners", "links": "#", "key": "partners" },
+        { "title": "Company", "links": "#", "key": "company" },
+        { "title": "Try for free", "links": "#", "key": "tryForFree" }
+      ],
+
+      "secondary": [
+        { "title": "Blog", "links": "#", "key": "blog" },
+        { "title": "Help Center", "links": "#", "key": "helpCenter" },
+        { "title": "Status", "links": "#", "key": "status" },
+        { "title": "Contact Us", "links": "#", "key": "contactUs" },
+        { "title": "Login", "links": "#", "key": "login" }
+      ]
+    },
+    "podcastCategories": {
+      "sales": "SALES",
+      "product": "PRODUCT",
+      "Life at Aircall": "LIFE AT AIRCALL"
+    },
+    "search": "Search",
+    "social": {
+      "facebook": "Facebook",
+      "twitter": "Twitter",
+      "linkedin": "LinkedIn"
+    },
+    "sortBy": "Sort by",
+    "tagline": "The phone system for modern business"
+  },
+  "home": {
+    "hero": {
+      "title": "Discover audio stories that entertain, inform, and inspire.",
+      "subscribe": "Subscribe to our podcast:",
+      "podcastList": {
+        "spotify": "Spotify",
+        "deezer": "Deezer",
+        "apple": "Apple Podcasts"
+      }
+    },
+    "latestReleases": {
+      "title": "the latest releases"
+    },
+    "latestArticles": {
+      "title": "Discover our latest articles"
+    }
+  }
+}
