@@ -1,0 +1,84 @@
+{
+  "common": {
+    "banner": {
+      "phone": "+1 888 240 6923",
+      "contactUs": "Contact us",
+      "login": "Login"
+    },
+    "footer": {
+      "navigation": {
+        "whyAirCall": "Why Aircall",
+        "countryCoverage": "Country Coverage",
+        "pricing": "Pricing",
+        "status": "Status",
+        "developer": "Developer",
+        "product": "Product",
+        "features": "Features",
+        "qualityAndReliability": "Quality and Reliability",
+        "apps": "Apps",
+        "requestADemo": "Request a Demo"
+      },
+
+      "banner": {
+        "copyright": "© Aircall",
+        "privacy": "Privacy",
+        "termsOfUse": "Terms of Use",
+        "siteMap": "Site Map"
+      }
+    },
+    "listenNow": "Listen now",
+    "locales": {
+      "en": "EN",
+      "fr": "FR"
+    },
+    "navigation": {
+      "main": {
+        "whyAirCall": "Why Aircall",
+        "solutions": "Solutions",
+        "pricing": "Pricing",
+        "resources": "Resources",
+        "partners": "Partners",
+        "company": "Company",
+        "tryForFree": "Try for free"
+      },
+
+      "secondary": {
+        "blog": "Blog",
+        "helpCenter": "Help Center",
+        "status": "Status",
+        "contactUs": "Contact Us",
+        "login": "Login"
+      }
+    },
+    "podcastCategories": {
+      "sales": "SALES",
+      "product": "PRODUCT",
+      "Life at Aircall": "LIFE AT AIRCALL"
+    },
+    "search": "Search",
+    "social": {
+      "facebook": "Facebook",
+      "twitter": "Twitter",
+      "linkedin": "LinkedIn"
+    },
+    "sortBy": "Sort by",
+    "tagline": "The phone system for modern business"
+  },
+  "home": {
+    "hero": {
+      "title": "Discover audio stories that entertain, inform, and inspire.",
+      "subscribe": "Subscribe to our podcast:",
+      "podcastList": {
+        "spotify": "Spotify",
+        "deezer": "Deezer",
+        "apple": "Apple Podcasts"
+      }
+    },
+    "latestReleases": {
+      "title": "the latest releases"
+    },
+    "latestArticles": {
+      "title": "Discover our latest articles"
+    }
+  }
+}
