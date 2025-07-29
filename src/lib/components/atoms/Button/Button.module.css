@@ -1,0 +1,111 @@
+.container {
+  --outline--width: 1px;
+  --outline--offset: 3px;
+
+  --border-width: 1px;
+
+  --transition-time: 525ms; /* NO SPEC: taken from https://aircall.io/brand/ */
+  --transition-property: ease-in-out;
+
+  font-family: var(--font-primary);
+
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: var(--border-radius-sm);
+  border: var(--border-width) solid transparent;
+  outline: none;
+
+  cursor: pointer;
+  transition: color var(--transition-time) var(--transition-property),
+    background var(--transition-time) var(--transition-property),
+    border var(--transition-time) var(--transition-property);
+
+  /* Appearance */
+  &[data-appearance='primary'] {
+    background-color: var(--color-green-500);
+    color: var(--color-white);
+    font-weight: var(--font-weight-semibold);
+
+    &:hover {
+      /* NO SPEC */
+      background-color: var(--color-green-600);
+    }
+
+    &:hover:active {
+      background-color: var(--color-green-600);
+    }
+  }
+
+  &[data-appearance='outline'] {
+    background-color: transparent;
+    border-color: var(--color-green-500);
+    color: var(--color-green-500);
+    font-weight: var(--font-weight-semibold);
+
+    &:hover {
+      border-color: var(--color-green-600);
+      color: var(--color-green-600);
+    }
+
+    &:hover:active {
+      border-color: var(--color-green-600);
+      color: var(--color-green-600);
+    }
+  }
+
+  &[data-appearance='outline-secondary'] {
+    background-color: transparent;
+    border-color: var(--color-gray-700);
+    color: var(--color-gray-600);
+    font-weight: var(--font-weight-medium);
+
+    &:hover {
+      border-color: var(--color-gray-300);
+    }
+
+    &:hover:active {
+      border-color: var(--color-gray-300);
+    }
+  }
+
+  /* Disabled */
+  &[data-disabled='true'] {
+    background-color: var(--disabled-button);
+    border-color: transparent;
+    color: var(--color-white);
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+
+  /* Button Sizes */
+  &[data-size='small'] {
+    font-size: var(--font-size-sm); /* 14px */
+    padding: 8px 19px;
+  }
+
+  &[data-size='medium'] {
+    font-size: var(--font-size-md); /* 16px */
+    padding: 12px 19px;
+  }
+
+  /* Focus outline */
+  &:focus-visible::before,
+  &:focus-visible::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: calc(var(--border-radius-sm) - var(--outline--offset));
+  }
+
+  &:focus-visible::before {
+    outline: var(--outline--width) solid var(--color-text);
+    outline-offset: var(--outline--offset);
+  }
+  &:focus-visible::after {
+    outline: var(--outline--width) solid var(--color-green-primary);
+    outline-offset: calc(var(--outline--offset) + var(--outline--width));
+  }
+}
