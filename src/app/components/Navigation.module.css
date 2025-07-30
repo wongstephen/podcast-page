@@ -5,6 +5,11 @@
   padding: 40px 32px;
 }
 
+.logo {
+  width: 120px;
+  height: auto;
+}
+
 .menuIcon {
   color: var(--color-green-500);
   transform: translateY(-1px); /* Slight adjustment for vertical alignment */
