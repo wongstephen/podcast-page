@@ -3,16 +3,20 @@
     {
       "id": 1,
       "title": "The Data-Driven Way to Put Customers First",
-      "length": 32,
+      "duration": 32,
       "season": 1,
-      "episode": 1
+      "episode": 1,
+      "date": "2025-01-01T10:00:00Z",
+      "image": "https://example.com/image1.jpg"
     },
     {
       "id": 2,
       "title": "What Is Interactive Voice Response",
-      "length": 32,
+      "duration": 32,
       "season": 1,
-      "episode": 2
+      "episode": 2,
+      "date": "2025-01-08T10:00:00Z",
+      "image": "https://example.com/image2.jpg"
     }
   ]
 }
