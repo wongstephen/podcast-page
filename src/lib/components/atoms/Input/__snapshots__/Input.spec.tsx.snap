@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Input Component matches snapshot 1`] = `
+<div>
+  <input
+    class="container"
+    placeholder="Snapshot Input"
+    type="text"
+  />
+</div>
+`;

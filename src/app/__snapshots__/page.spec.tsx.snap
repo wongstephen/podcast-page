@@ -42,21 +42,23 @@ exports[`sanity matches snapshot 1`] = `
         </div>
       </div>
     </div>
-    <div
-      class="logoContainer"
+    <nav
+      class="navContainer"
     >
-      <img
-        alt="Aircall"
-        class="logo"
-        data-nimg="1"
-        decoding="async"
-        height="35.76"
-        src="/_next/image?url=%2Faircall_logo.webp&w=256&q=75"
-        srcset="/_next/image?url=%2Faircall_logo.webp&w=128&q=75 1x, /_next/image?url=%2Faircall_logo.webp&w=256&q=75 2x"
-        style="color: transparent;"
-        width="125"
-      />
-      <nav>
+      <div
+        class="logoContainer"
+      >
+        <img
+          alt="Aircall"
+          class="logo"
+          data-nimg="1"
+          decoding="async"
+          height="35.76"
+          src="/_next/image?url=%2Faircall_logo.webp&w=256&q=75"
+          srcset="/_next/image?url=%2Faircall_logo.webp&w=128&q=75 1x, /_next/image?url=%2Faircall_logo.webp&w=256&q=75 2x"
+          style="color: transparent;"
+          width="125"
+        />
         <div
           class="mobileMenuContainer"
         >
@@ -94,8 +96,39 @@ exports[`sanity matches snapshot 1`] = `
             </span>
           </button>
         </div>
-      </nav>
-    </div>
+      </div>
+      <div>
+        <div
+          class="container"
+        >
+          <input
+            class="container input"
+            placeholder="Search"
+            type="text"
+          />
+          <div
+            class="iconContainer"
+          >
+            <svg
+              aria-hidden="true"
+              class="icon"
+              fill="none"
+              height="24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11 19a8 8 0 1 0 0-16 8 8 0 0 0 0 16ZM21 21l-4.35-4.35"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </nav>
   </header>
 </div>
 `;

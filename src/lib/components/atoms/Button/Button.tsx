@@ -56,7 +56,7 @@ const Button = ({
 
   return (
     <Comp
-      className={cn(styles['container'], className || '')}
+      className={cn(styles['container'], className)}
       data-appearance={appearance}
       data-disabled={disabled}
       data-size={size}
