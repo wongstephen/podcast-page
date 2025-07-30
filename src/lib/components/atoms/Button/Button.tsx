@@ -2,10 +2,15 @@ import React from 'react';
 import { Slot } from '@radix-ui/react-slot';
 
 import styles from './Button.module.css';
+import { cn } from '@/lib/utilities/cn';
 
-type ButtonSizes = 'small' | 'medium';
+type ButtonSizes = 'small' | 'medium' | 'none';
 
-type ButtonAppearance = 'primary' | 'outline' | 'outline-secondary';
+type ButtonAppearance =
+  | 'primary'
+  | 'outline'
+  | 'outline-secondary'
+  | 'transparent';
 
 export type ButtonProps = {
   /**
@@ -40,6 +45,7 @@ export type ButtonProps = {
 
 const Button = ({
   appearance = 'primary',
+  className,
   asChild = false,
   children,
   disabled,
@@ -50,7 +56,7 @@ const Button = ({
 
   return (
     <Comp
-      className={styles['container']}
+      className={cn(styles['container'], className || '')}
       data-appearance={appearance}
       data-disabled={disabled}
       data-size={size}

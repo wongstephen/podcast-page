@@ -71,6 +71,12 @@
     }
   }
 
+  &[data-appearance='transparent'] {
+    background-color: transparent;
+    border-color: transparent;
+    color: var(--color-green-600);
+  }
+
   /* Disabled */
   &[data-disabled='true'] {
     background-color: var(--disabled-button);

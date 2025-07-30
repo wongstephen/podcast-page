@@ -2,7 +2,7 @@
   "common": {
     "banner": {
       "phone": "+1 888 240 6923",
-      "contactUs": "Contact us",
+      "contactUs": "Contact Us",
       "login": "Login"
     },
     "footer": {
@@ -39,7 +39,8 @@
         "resources": "Resources",
         "partners": "Partners",
         "company": "Company",
-        "tryForFree": "Try for free"
+        "tryForFree": "Try for free",
+        "menu": "Menu"
       },
 
       "secondary": {

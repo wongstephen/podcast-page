@@ -2,13 +2,14 @@
   --color-green-500: #00b388; /* primary green - button, button-outline, play, search icon, articles tag */
   --color-green-500-alpha-15: #00b38826; /* play button bg with transparency */
   --color-green-600: #00724e; /* NO SPEC: taken from https://aircall.io/brand/ for hover */
-  --color-black: #000000; /* Hero Text, Section Title, podcast button  */
+  --color-black: #000000; /* hero text, section title, podcast button  */
   --color-white: #ffffff;
-  --color-gray-100: #f7f8fc; /*footer bg */
+  --color-gray-100: #f7f8fc; /* footer bg */
+  --color-gray-150: #f5f5f5; /* banner border */
   --color-gray-200: #f1f3f8; /* sort dropdown, podcast skeleton */
   --color-gray-250: #d3d5dc; /* podcast skeleton bg */
   --color-gray-300: #9fadbc; /* podcast specs */
-  --color-gray-400: #ececea; /* Footer social bg */
+  --color-gray-400: #ececea; /* footer social bg */
   --color-gray-500: #5c6266; /* articles text submenu */
   --color-gray-600: #333333; /*  banner text */
   --color-gray-700: #d0d0d0; /* banner locale border*/
@@ -58,4 +59,17 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+/* Hide visually but keep accessible for screen readers */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
 }
