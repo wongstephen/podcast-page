@@ -2,13 +2,13 @@
 
 import React from 'react';
 
-import Image from 'next/image';
 import Banner from './Banner';
 import { MenuIcon } from '@/lib/components/atoms/Icons/Menu';
 
 import styles from './Navigation.module.css';
 import Button from '@/lib/components/atoms/Button/Button';
 import { getDictionary } from '@/lib/utilities/dictionaries/dictionaries';
+import { AircallLogo } from '@/lib/components/atoms/Logo/AircallLogo';
 
 export default function Navigation() {
   const dict = getDictionary('en');
@@ -24,14 +24,7 @@ export default function Navigation() {
     <header className={styles.container}>
       <Banner />
       <div className={styles.logoContainer}>
-        <Image
-          width={125}
-          height={35.76}
-          src="/aircall_logo.webp"
-          alt="Aircall"
-          className={styles.logo}
-          priority
-        />
+        <AircallLogo className={styles.logo} />
         <nav>
           <div className={styles.mobileMenuContainer}>
             <Button
