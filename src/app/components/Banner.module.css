@@ -1,7 +1,6 @@
 .wrapper {
   container-type: inline-size;
   container-name: banner;
-  width: 100%;
 }
 
 .container {
@@ -10,19 +9,19 @@
   align-items: center;
   justify-content: flex-end;
   padding: 20px;
-  gap: 32px;
+  gap: var(--spacing-lg);
   max-width: 100%;
   width: 100%;
   border-bottom: 1px solid var(--color-gray-150);
-
-  container-type: inline-size;
+  width: 100%;
+  max-width: var(--breakpoint-lg);
 }
 
 .container .buttonsContainer {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 8px;
+  gap: var(--spacing-lg);
 }
 
 .phoneText {
@@ -36,7 +35,7 @@
 .contactLink {
   font: var(--font-primary);
   font-size: var(--font-size-sm);
-  color: var(--color-green-500);
+  color: var(--color-gray-600);
   letter-spacing: calc(var(--font-size-sm) * 0.01); /* 1% */
   font-weight: var(--font-weight-medium);
 }

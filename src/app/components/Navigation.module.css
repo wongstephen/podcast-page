@@ -1,8 +1,18 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: var(--breakpoint-lg);
+  width: 100%;
+}
+
 .logoContainer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 40px 32px;
+  padding: 40px var(--spacing-lg);
 }
 
 .logo {
@@ -19,7 +29,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 8px;
+  gap: var(--spacing-sm);
 }
 
 .mobileMenuText {
