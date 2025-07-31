@@ -32,6 +32,7 @@
       "fr": "FR"
     },
     "navigation": {
+      "skipToMain": "Skip to Main",
       "main": {
         "whyAirCall": "Why Aircall",
         "solutions": "Solutions",

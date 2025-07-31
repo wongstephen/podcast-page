@@ -11,6 +11,7 @@ import Banner from './Banner';
 import styles from './Navigation.module.css';
 
 import NavSubMenu from './NavSubMenu';
+import SkipButton from './SkipButton';
 
 export default function Navigation() {
   const dict = getDictionary('en');
@@ -23,35 +24,38 @@ export default function Navigation() {
   };
 
   return (
-    <div className={styles.wrapper}>
-      <div className={styles.container}>
-        <Banner />
-        <nav className={styles.navigation}>
-          <div className={styles.logoContainer}>
-            <AircallLogo className={styles.logo} />
-            <div className={styles.mobileMenuContainer}>
-              <Button
-                aria-label="Toggle navigation menu"
-                aria-expanded={isMenuOpen}
-                onClick={handleMenuClick}
-                appearance="transparent"
-                size="none"
-                className={styles.menuButton}
-              >
-                <p className={styles.mobileMenuText}>
-                  {dict.common.navigation.main.menu}
-                </p>
-                <MenuIcon className={styles.menuIcon} aria-hidden="true" />
-                <span className="sr-only">
-                  {/* for accessibility, hidden visually */}
-                  {isMenuOpen ? 'Close menu' : 'Open menu'}{' '}
-                </span>
-              </Button>
+    <>
+      <div className={styles.wrapper}>
+        <SkipButton />
+        <div className={styles.container}>
+          <Banner />
+          <nav className={styles.navigation}>
+            <div className={styles.logoContainer}>
+              <AircallLogo className={styles.logo} />
+              <div className={styles.mobileMenuContainer}>
+                <Button
+                  aria-label="Toggle navigation menu"
+                  aria-expanded={isMenuOpen}
+                  onClick={handleMenuClick}
+                  appearance="transparent"
+                  size="none"
+                  className={styles.menuButton}
+                >
+                  <p className={styles.mobileMenuText}>
+                    {dict.common.navigation.main.menu}
+                  </p>
+                  <MenuIcon className={styles.menuIcon} aria-hidden="true" />
+                  <span className="sr-only">
+                    {/* for accessibility, hidden visually */}
+                    {isMenuOpen ? 'Close menu' : 'Open menu'}{' '}
+                  </span>
+                </Button>
+              </div>
             </div>
-          </div>
-          <NavSubMenu />
-        </nav>
+            <NavSubMenu />
+          </nav>
+        </div>
       </div>
-    </div>
+    </>
   );
 }

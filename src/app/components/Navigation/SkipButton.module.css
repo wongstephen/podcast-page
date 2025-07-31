@@ -1,0 +1,14 @@
+.skipButton {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+
+  transform: translateY(-150%);
+
+  transition: transform 525ms ease-in-out;
+
+  &:focus,
+  &:focus-visible {
+    transform: translateY(0) translateX(0);
+  }
+}
