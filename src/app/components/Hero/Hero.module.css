@@ -49,8 +49,6 @@
 
 .subscribeLinksContainer {
   display: flex;
-  gap: 26px;
-  padding-left: 8px;
 }
 
 .subscribeLink {
@@ -60,6 +58,16 @@
   font-size: var(--font-size-sm);
   line-height: 1.5rem;
   letter-spacing: 0px;
+  border-radius: 16px;
+  padding: 14px;
+
+  transition: background-color var(--transition-duration) ease-in-out;
+
+  &:hover,
+  &:focus,
+  &:focus-visible {
+    background-color: var(--color-gray-350);
+  }
 }
 
 .subscribeTitle {

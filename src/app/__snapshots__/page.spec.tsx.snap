@@ -44,11 +44,25 @@ exports[`sanity matches snapshot 1`] = `
                 Login
               </button>
               <button
-                class="container"
+                class="container localeButton"
                 data-appearance="outline-secondary"
                 data-size="small"
               >
                 FR
+                <svg
+                  class="expandLocaleIcon"
+                  fill="none"
+                  viewBox="0 0 8 5"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="m2.829 3.829.707.707.707-.707.353-.354 1.415-1.414L7.07 1 6.364.292l-1.06 1.06-1.415 1.415-.353.353-.354-.353-1.414-1.414L.708.293 0 1l1.06 1.06 1.415 1.415.354.354Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                    opacity="0.5"
+                  />
+                </svg>
               </button>
             </div>
           </div>
@@ -474,8 +488,9 @@ inform, and inspire.
           <div
             class="subscribeLinksContainer"
           >
-            <div
+            <a
               class="subscribeLink"
+              href="#"
             >
               <svg
                 class="podcastIcon"
@@ -513,9 +528,10 @@ inform, and inspire.
               >
                 Spotify
               </p>
-            </div>
-            <div
+            </a>
+            <a
               class="subscribeLink"
+              href="#"
             >
               <svg
                 class="podcastIcon"
@@ -553,9 +569,10 @@ inform, and inspire.
               >
                 Deezer
               </p>
-            </div>
-            <div
+            </a>
+            <a
               class="subscribeLink"
+              href="#"
             >
               <svg
                 class="podcastIcon"
@@ -599,7 +616,7 @@ inform, and inspire.
               >
                 Apple Podcasts
               </p>
-            </div>
+            </a>
           </div>
         </div>
       </div>
