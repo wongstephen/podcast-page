@@ -31,3 +31,9 @@
   width: 120px;
   height: auto;
 }
+
+@media screen and (min-width: 1440px) {
+  .logoContainer {
+    padding-inline: unset;
+  }
+}

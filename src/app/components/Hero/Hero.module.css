@@ -147,3 +147,9 @@
     transform: scale(1.2) translateY(36px) translateX(28px);
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .container {
+    padding: unset;
+  }
+}

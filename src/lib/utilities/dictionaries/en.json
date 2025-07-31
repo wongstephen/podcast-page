@@ -83,7 +83,8 @@
       "title": "The latest releases"
     },
     "latestArticles": {
-      "title": "Discover our latest articles"
+      "title": "Discover our latest articles",
+      "minRead": "MIN READ"
     }
   }
 }

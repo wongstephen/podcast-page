@@ -81,3 +81,9 @@
     align-items: flex-end;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .container {
+    padding: unset;
+  }
+}

@@ -60,3 +60,9 @@
     display: flex;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .container {
+    padding-inline: unset;
+  }
+}

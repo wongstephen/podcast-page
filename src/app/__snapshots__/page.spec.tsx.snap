@@ -445,6 +445,7 @@ exports[`sanity matches snapshot 1`] = `
     </div>
   </header>
   <main
+    class="main"
     id="main-content"
   >
     <div
@@ -828,10 +829,10 @@ inform, and inspire.
           class="card"
         >
           <div
-            class="container"
+            class="skeletonContainer"
           >
             <div
-              class="imageWrapper"
+              class="skeletonImageWrapper"
             >
               <div
                 class="skeletonImage"
@@ -853,10 +854,10 @@ inform, and inspire.
           class="card"
         >
           <div
-            class="container"
+            class="skeletonContainer"
           >
             <div
-              class="imageWrapper"
+              class="skeletonImageWrapper"
             >
               <div
                 class="skeletonImage"
@@ -876,6 +877,211 @@ inform, and inspire.
         </article>
       </div>
     </section>
+    <div
+      class="container"
+    >
+      <h2
+        class="articleSectionTitle"
+      >
+        Discover our latest articles
+      </h2>
+      <div
+        class="articleList"
+      >
+        <a
+          href=""
+        >
+          <div
+            class="articleCard"
+          >
+            <img
+              alt="How to Pick the Best Technology for Your Team"
+              class="articleImage"
+              data-nimg="1"
+              decoding="async"
+              height="140"
+              loading="lazy"
+              src="/_next/image?url=%2Farticle%2Farticle1.webp&w=640&q=75"
+              srcset="/_next/image?url=%2Farticle%2Farticle1.webp&w=384&q=75 1x, /_next/image?url=%2Farticle%2Farticle1.webp&w=640&q=75 2x"
+              style="color: transparent;"
+              width="311"
+            />
+            <div
+              class="articleContent"
+            >
+              <p
+                class="articleMeta"
+              >
+                <span
+                  class="articleTag"
+                  data-tag="sales"
+                >
+                  SALES
+                </span>
+                <span>
+                  •
+                </span>
+                <span>
+                  9
+                   
+                  MIN READ
+                </span>
+              </p>
+              <h3>
+                How to Pick the Best Technology for Your Team
+              </h3>
+              <p>
+                Choosing call recording software is difficult, to say the least.
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          href=""
+        >
+          <div
+            class="articleCard"
+          >
+            <img
+              alt="The Secret to Building a Hybrid Workplace | Part III: Hiring Hybrid Employees"
+              class="articleImage"
+              data-nimg="1"
+              decoding="async"
+              height="140"
+              loading="lazy"
+              src="/_next/image?url=%2Farticle%2Farticle2.webp&w=640&q=75"
+              srcset="/_next/image?url=%2Farticle%2Farticle2.webp&w=384&q=75 1x, /_next/image?url=%2Farticle%2Farticle2.webp&w=640&q=75 2x"
+              style="color: transparent;"
+              width="311"
+            />
+            <div
+              class="articleContent"
+            >
+              <p
+                class="articleMeta"
+              >
+                <span
+                  class="articleTag"
+                  data-tag="product"
+                >
+                  PRODUCT
+                </span>
+                <span>
+                  •
+                </span>
+                <span>
+                  3
+                   
+                  MIN READ
+                </span>
+              </p>
+              <h3>
+                The Secret to Building a Hybrid Workplace | Part III: Hiring Hybrid Employees
+              </h3>
+              <p>
+                This article is a part of our series about building the ultimate hybrid workplace.
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          href=""
+        >
+          <div
+            class="articleCard"
+          >
+            <img
+              alt="Developing a Hybrid Workforce? Here Are the Top Factors to Consider"
+              class="articleImage"
+              data-nimg="1"
+              decoding="async"
+              height="140"
+              loading="lazy"
+              src="/_next/image?url=%2Farticle%2Farticle3.webp&w=640&q=75"
+              srcset="/_next/image?url=%2Farticle%2Farticle3.webp&w=384&q=75 1x, /_next/image?url=%2Farticle%2Farticle3.webp&w=640&q=75 2x"
+              style="color: transparent;"
+              width="311"
+            />
+            <div
+              class="articleContent"
+            >
+              <p
+                class="articleMeta"
+              >
+                <span
+                  class="articleTag"
+                  data-tag="life"
+                >
+                  LIFE
+                </span>
+                <span>
+                  •
+                </span>
+                <span>
+                  5
+                   
+                  MIN READ
+                </span>
+              </p>
+              <h3>
+                Developing a Hybrid Workforce? Here Are the Top Factors to Consider
+              </h3>
+              <p>
+                A recent survey conducted by global consulting firm PwC...
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          href=""
+        >
+          <div
+            class="articleCard"
+          >
+            <img
+              alt="Creating a Workplace Built on Collaboration"
+              class="articleImage"
+              data-nimg="1"
+              decoding="async"
+              height="140"
+              loading="lazy"
+              src="/_next/image?url=%2Farticle%2Farticle4.webp&w=640&q=75"
+              srcset="/_next/image?url=%2Farticle%2Farticle4.webp&w=384&q=75 1x, /_next/image?url=%2Farticle%2Farticle4.webp&w=640&q=75 2x"
+              style="color: transparent;"
+              width="311"
+            />
+            <div
+              class="articleContent"
+            >
+              <p
+                class="articleMeta"
+              >
+                <span
+                  class="articleTag"
+                  data-tag="sales"
+                >
+                  SALES
+                </span>
+                <span>
+                  •
+                </span>
+                <span>
+                  9
+                   
+                  MIN READ
+                </span>
+              </p>
+              <h3>
+                Creating a Workplace Built on Collaboration
+              </h3>
+              <p>
+                This article is a part of our series about building the ultimate hybrid workplace
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
   </main>
   <footer />
 </div>

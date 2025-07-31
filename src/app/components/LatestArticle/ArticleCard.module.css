@@ -1,0 +1,39 @@
+.articleCard {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.articleMeta {
+  text-transform: uppercase;
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-gray-300);
+  font-size: var(--font-size-sm);
+  display: flex;
+  gap: var(--spacing-sm);
+}
+
+.articleTag {
+  &[data-tag='sales'] {
+    color: var(--color-blue-500);
+  }
+
+  &[data-tag='product'] {
+    color: var(--color-pink-700);
+  }
+
+  &[data-tag='life'] {
+    color: var(--color-green-500);
+  }
+}
+
+.articleImage {
+  width: 100%;
+  height: auto;
+}
+
+.articleContent {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}

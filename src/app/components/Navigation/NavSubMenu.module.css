@@ -83,8 +83,6 @@ div.searchBar {
 @media screen and (min-width: 1440px) {
   .subMenuContainer {
     min-height: 85px;
-
-    padding-right: var(--spacing-md);
   }
 
   .subMenuList {

@@ -1,6 +1,9 @@
 import Hero from './components/Hero/Hero';
+import LatestArticle from './components/LatestArticle/LatestArticle';
 import LatestPodcast from './components/LatestPodcast/LatestPodcast';
 import Navigation from './components/Navigation/Navigation';
+
+import styles from './page.module.css';
 
 export default function Home() {
   return (
@@ -8,9 +11,11 @@ export default function Home() {
       <header>
         <Navigation />
       </header>
-      <main id="main-content">
+      <main id="main-content" className={styles.main}>
+        {/* Hero section */}
         <Hero />
         <LatestPodcast />
+        <LatestArticle />
       </main>
       <footer></footer>
     </>

@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  gap: var(--spacing-md);
+  flex-direction: column;
+  padding: var(--spacing-lg);
+  max-width: var(--breakpoint-lg);
+  margin: 0 auto;
+  width: 100%;
+}
+.articleSectionTitle {
+  font-size: 1.375rem;
+  font-weight: var(--font-weight-semibold);
+  line-height: 1.875rem;
+}
+
+.articleList {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(auto-fill, minmax(248px, 1fr));
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    padding: unset;
+  }
+}
