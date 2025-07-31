@@ -34,6 +34,12 @@
 
   --background: var(--color-white);
   --foreground: var(--color-black);
+
+  --breakpoint-lg: 1062px;
+
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
 }
 
 html,

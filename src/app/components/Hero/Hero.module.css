@@ -1,0 +1,140 @@
+.container {
+  --padding-large: 32px;
+  --padding-small: 16px;
+
+  background: linear-gradient(#e4f2f8, #e4f2f800);
+  padding-top: var(--padding-large);
+  padding-bottom: var(--padding-small);
+
+  display: flex;
+  justify-content: center;
+
+  container-type: inline-size;
+  container-name: grid;
+}
+
+.heroImageContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.heroImage {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  max-width: 450px;
+}
+
+.content {
+  padding-inline: var(--padding-large);
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+}
+
+.content h1 {
+  font-size: 1.875rem; /* 30px */
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-gray-900);
+  text-wrap: pretty;
+  line-height: 2.4375rem; /* 39px */
+}
+
+.grid {
+  display: grid;
+  max-width: var(--breakpoint-lg);
+}
+
+/* subscribe section */
+
+.subscribeLinksContainer {
+  display: flex;
+  gap: 26px;
+  padding-left: 8px;
+}
+
+.subscribeLink {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: var(--font-size-sm);
+  line-height: 1.5rem;
+  letter-spacing: 0px;
+}
+
+.subscribeTitle {
+  font-size: var(--font-size-md); /* 16px */
+  line-height: 1.5rem; /* 24px */
+  font-weight: var(--font-weight-medium);
+}
+
+.podcastText {
+  font-size: var(--font-size-md);
+  line-height: 1.5rem; /* 24px */
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-gray-900);
+  display: none;
+}
+
+.podcastIcon {
+  --icon-size: 39.62px;
+
+  width: var(--icon-size);
+  height: var(--icon-size);
+}
+
+@container grid (min-width: 500px) {
+  .podcastText {
+    display: block;
+  }
+
+  .podcastIcon {
+    --icon-size: 30px;
+  }
+}
+
+@container grid (min-width: 1000px) {
+  .grid {
+    grid-template-columns: 1.1fr 0.9fr;
+    padding: var(--spacing-lg);
+  }
+
+  .content {
+    grid-row-start: 1;
+    grid-column: 1;
+    padding: 0;
+
+    align-items: start;
+    justify-content: center;
+
+    text-wrap: balanced;
+    gap: 24px;
+  }
+
+  .heroImage {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    max-width: unset;
+  }
+
+  .content h1 {
+    font-size: 3.25rem; /* 52px in rem */
+    line-height: 3.5rem; /* 56px in rem */
+
+    white-space: pre-wrap;
+  }
+
+  .subscribeTitle {
+    font-weight: var(--font-weight-semibold);
+    font-size: 1.25rem;
+    line-height: 1.75rem; /* 28px */
+  }
+}
+
+@container grid (min-width: 1080px) {
+  /* TODO: Adjustments until a hero image to spec is provided */
+  .heroImage {
+    transform: scale(1.2) translateY(36px) translateX(28px);
+  }
+}
