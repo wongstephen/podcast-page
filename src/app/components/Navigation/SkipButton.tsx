@@ -2,6 +2,7 @@ import Button from '@/lib/components/atoms/Button/Button';
 import { getDictionary } from '@/lib/utilities/dictionaries/dictionaries';
 import style from './SkipButton.module.css';
 import { cn } from '@/lib/utilities/cn';
+import { logError } from '@/lib/utilities/logger';
 
 export default function SkipButton({
   className,
@@ -13,8 +14,10 @@ export default function SkipButton({
     if (mainContent) {
       mainContent.scrollIntoView({ behavior: 'smooth' });
     } else {
-      console.warn(`SkipButton: '${target}' element not found in the DOM.`);
-      // Send to logging service: SkipButton: '#main-content' element not found in the DOM.
+      const error = new Error(
+        `SkipButton: '${target}' element not found in the DOM.`
+      );
+      logError(error);
     }
   };
   return (
