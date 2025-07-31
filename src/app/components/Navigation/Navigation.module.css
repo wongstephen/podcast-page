@@ -4,6 +4,17 @@
 }
 
 .container {
+  width: 100%;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logoContainer {
   max-width: var(--breakpoint-lg);
   width: 100%;
 }

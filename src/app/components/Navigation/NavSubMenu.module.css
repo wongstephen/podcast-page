@@ -1,0 +1,92 @@
+.subMenuWrapper {
+  background-color: var(--color-gray-100);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.subMenuContainer {
+  max-width: var(--breakpoint-lg);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+
+.subMenuList {
+  flex-direction: row;
+  align-items: center;
+  padding: var(--spacing-md);
+  list-style: none;
+  gap: 40px;
+  display: none;
+}
+
+.subMenuLink {
+  display: flex;
+  width: 100%;
+  gap: var(--spacing-sm);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-md);
+  line-height: 1.5rem; /* 24px */
+  color: var(--color-gray-500);
+
+  &[data-activelink='true'] {
+    color: var(--color-black);
+    font-weight: var(--font-weight-semibold);
+  }
+}
+
+.expandIcon {
+  --icon-size: 7px;
+
+  width: var(--icon-size);
+  height: var(--icon-size);
+  color: var(--color-gray-500);
+  transform: translateY(-2px);
+}
+
+.searchButton {
+  display: none;
+}
+
+div.searchBar {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width: 1000px) {
+  .subMenuContainer {
+    justify-content: flex-end;
+  }
+
+  div.searchBar {
+    display: none;
+  }
+
+  .searchButton {
+    display: block;
+  }
+
+  .subMenuSearchIcon {
+    color: var(--color-green-500);
+    display: block;
+    width: 24px;
+    height: 24px;
+  }
+
+  .subMenuList {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .subMenuContainer {
+    min-height: 85px;
+
+    padding-right: var(--spacing-md);
+  }
+
+  .subMenuList {
+    padding: unset;
+  }
+}
