@@ -107,11 +107,11 @@
   }
 
   &:focus-visible::before {
-    outline: var(--outline--width) solid var(--color-text);
+    outline: var(--outline--width) solid var(--background);
     outline-offset: var(--outline--offset);
   }
   &:focus-visible::after {
-    outline: var(--outline--width) solid var(--color-green-primary);
+    outline: var(--outline--width) solid var(--color-green-500);
     outline-offset: calc(var(--outline--offset) + var(--outline--width));
   }
 }
