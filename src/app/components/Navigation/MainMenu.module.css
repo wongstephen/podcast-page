@@ -1,0 +1,76 @@
+.container {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.menuIcon {
+  color: var(--color-green-500);
+  transform: translateY(-1px); /* Slight adjustment for vertical alignment */
+}
+
+.menuButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--spacing-sm);
+}
+
+.mobileMenuText {
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-semibold);
+  text-transform: uppercase;
+  color: var(--color-green-500);
+}
+
+.desktopMenuContainer {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.menuWrapper {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.menuList {
+  display: flex;
+  list-style: none;
+  gap: 22px;
+}
+
+.menuLink {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 11px;
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-md);
+  line-height: 1.5rem; /* 24px */
+  color: var(--color-gray-900);
+
+  &[data-activelink='true'] {
+    color: var(--color-black);
+    font-weight: var(--font-weight-semibold);
+  }
+}
+
+.expandIcon {
+  --icon-size: 7px;
+
+  width: var(--icon-size);
+  height: var(--icon-size);
+  color: var(--color-gray-500);
+  transform: translateY(-1px);
+}
+
+@media screen and (min-width: 1024px) {
+  .mobileMenuContainer {
+    display: none;
+  }
+  .desktopMenuContainer {
+    display: flex;
+  }
+}

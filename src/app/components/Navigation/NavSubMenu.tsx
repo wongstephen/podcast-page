@@ -4,7 +4,7 @@ import { usePathname } from 'next/navigation';
 import Button from '@/lib/components/atoms/Button/Button';
 import SearchBar from '@/lib/components/molecules/SearchBar/SearchBar';
 
-import { subMenuLinks } from '@/lib/contants/nav';
+import { subMenuLinks } from '@/lib/constants/nav';
 import { DownArrowIcon } from '@/lib/components/atoms/Icons/DownArrowIcon';
 import { SearchIcon } from '@/lib/components/atoms/Icons/Search';
 
