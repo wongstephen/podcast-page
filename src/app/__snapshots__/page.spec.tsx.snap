@@ -79,41 +79,194 @@ exports[`sanity matches snapshot 1`] = `
               />
             </svg>
             <div
-              class="mobileMenuContainer"
+              class="container"
             >
-              <button
-                aria-expanded="false"
-                aria-label="Toggle navigation menu"
-                class="container menuButton"
-                data-appearance="transparent"
-                data-size="none"
+              <div
+                class="mobileMenuContainer"
               >
-                <p
-                  class="mobileMenuText"
+                <button
+                  aria-expanded="false"
+                  aria-label="Toggle navigation menu"
+                  class="container menuButton"
+                  data-appearance="transparent"
+                  data-size="none"
                 >
-                  Menu
-                </p>
-                <svg
-                  aria-hidden="true"
-                  class="menuIcon"
-                  fill="none"
-                  height="9"
-                  width="14"
-                  xmlns="http://www.w3.org/2000/svg"
+                  <p
+                    class="mobileMenuText"
+                  >
+                    Menu
+                  </p>
+                  <svg
+                    aria-hidden="true"
+                    class="menuIcon"
+                    fill="none"
+                    height="9"
+                    width="14"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0 1h14M0 8h14"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
+                  </svg>
+                  <span
+                    class="sr-only"
+                  >
+                    Open menu
+                     
+                  </span>
+                </button>
+              </div>
+              <div
+                class="desktopMenuContainer"
+              >
+                <div
+                  class="menuWrapper"
                 >
-                  <path
-                    d="M0 1h14M0 8h14"
-                    stroke="currentColor"
-                    stroke-width="2"
-                  />
-                </svg>
-                <span
-                  class="sr-only"
+                  <ul
+                    class="menuList"
+                  >
+                    <li
+                      class="menuItem"
+                    >
+                      <a
+                        class="menuLink"
+                        href="/whyaircall"
+                      >
+                        Why Aircall
+                        <svg
+                          class="expandIcon"
+                          fill="none"
+                          viewBox="0 0 8 5"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            clip-rule="evenodd"
+                            d="m2.829 3.829.707.707.707-.707.353-.354 1.415-1.414L7.07 1 6.364.292l-1.06 1.06-1.415 1.415-.353.353-.354-.353-1.414-1.414L.708.293 0 1l1.06 1.06 1.415 1.415.354.354Z"
+                            fill="currentColor"
+                            fill-rule="evenodd"
+                            opacity="0.5"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li
+                      class="menuItem"
+                    >
+                      <a
+                        class="menuLink"
+                        href="/solutions"
+                      >
+                        Solutions
+                        <svg
+                          class="expandIcon"
+                          fill="none"
+                          viewBox="0 0 8 5"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            clip-rule="evenodd"
+                            d="m2.829 3.829.707.707.707-.707.353-.354 1.415-1.414L7.07 1 6.364.292l-1.06 1.06-1.415 1.415-.353.353-.354-.353-1.414-1.414L.708.293 0 1l1.06 1.06 1.415 1.415.354.354Z"
+                            fill="currentColor"
+                            fill-rule="evenodd"
+                            opacity="0.5"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li
+                      class="menuItem"
+                    >
+                      <a
+                        class="menuLink"
+                        href="/pricing"
+                      >
+                        Pricing
+                      </a>
+                    </li>
+                    <li
+                      class="menuItem"
+                    >
+                      <a
+                        class="menuLink"
+                        href="/resources"
+                      >
+                        Resources
+                        <svg
+                          class="expandIcon"
+                          fill="none"
+                          viewBox="0 0 8 5"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            clip-rule="evenodd"
+                            d="m2.829 3.829.707.707.707-.707.353-.354 1.415-1.414L7.07 1 6.364.292l-1.06 1.06-1.415 1.415-.353.353-.354-.353-1.414-1.414L.708.293 0 1l1.06 1.06 1.415 1.415.354.354Z"
+                            fill="currentColor"
+                            fill-rule="evenodd"
+                            opacity="0.5"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li
+                      class="menuItem"
+                    >
+                      <a
+                        class="menuLink"
+                        href="/partners"
+                      >
+                        Partners
+                        <svg
+                          class="expandIcon"
+                          fill="none"
+                          viewBox="0 0 8 5"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            clip-rule="evenodd"
+                            d="m2.829 3.829.707.707.707-.707.353-.354 1.415-1.414L7.07 1 6.364.292l-1.06 1.06-1.415 1.415-.353.353-.354-.353-1.414-1.414L.708.293 0 1l1.06 1.06 1.415 1.415.354.354Z"
+                            fill="currentColor"
+                            fill-rule="evenodd"
+                            opacity="0.5"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li
+                      class="menuItem"
+                    >
+                      <a
+                        class="menuLink"
+                        href="/company"
+                      >
+                        Company
+                        <svg
+                          class="expandIcon"
+                          fill="none"
+                          viewBox="0 0 8 5"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            clip-rule="evenodd"
+                            d="m2.829 3.829.707.707.707-.707.353-.354 1.415-1.414L7.07 1 6.364.292l-1.06 1.06-1.415 1.415-.353.353-.354-.353-1.414-1.414L.708.293 0 1l1.06 1.06 1.415 1.415.354.354Z"
+                            fill="currentColor"
+                            fill-rule="evenodd"
+                            opacity="0.5"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <button
+                  class="container"
+                  data-appearance="primary"
+                  data-size="medium"
                 >
-                  Open menu
-                   
-                </span>
-              </button>
+                  Try for free
+                </button>
+              </div>
             </div>
           </div>
           <div

@@ -2,7 +2,53 @@ import { getDictionary } from '@/lib/utilities/dictionaries/dictionaries';
 
 const dict = getDictionary('en');
 
-export const subMenuLinks = [
+type MenuItem = {
+  title: string;
+  url: string;
+  expandable: boolean;
+  key: string;
+};
+
+export const mainMenuLinks: MenuItem[] = [
+  {
+    title: dict.common.navigation.main.whyAirCall,
+    url: `/whyaircall`,
+    expandable: true,
+    key: 'whyaircall',
+  },
+  {
+    title: dict.common.navigation.main.solutions,
+    url: `/solutions`,
+    expandable: true,
+    key: 'solutions',
+  },
+  {
+    title: dict.common.navigation.main.pricing,
+    url: `/pricing`,
+    expandable: false,
+    key: 'pricing',
+  },
+  {
+    title: dict.common.navigation.main.resources,
+    url: `/resources`,
+    expandable: true,
+    key: 'resources',
+  },
+  {
+    title: dict.common.navigation.main.partners,
+    url: `/partners`,
+    expandable: true,
+    key: 'partners',
+  },
+  {
+    title: dict.common.navigation.main.company,
+    url: `/company`,
+    expandable: true,
+    key: 'company',
+  },
+];
+
+export const subMenuLinks: MenuItem[] = [
   {
     title: dict.common.navigation.secondary.all,
     url: `/all`,

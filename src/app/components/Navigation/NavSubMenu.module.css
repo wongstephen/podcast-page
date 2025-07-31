@@ -4,6 +4,7 @@
   justify-content: center;
   width: 100%;
 }
+
 .subMenuContainer {
   max-width: var(--breakpoint-lg);
   width: 100%;

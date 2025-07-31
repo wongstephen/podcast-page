@@ -24,29 +24,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 40px var(--spacing-lg);
+  padding: 32px 20px;
 }
 
 .logo {
   width: 120px;
   height: auto;
-}
-
-.menuIcon {
-  color: var(--color-green-500);
-  transform: translateY(-1px); /* Slight adjustment for vertical alignment */
-}
-
-.menuButton {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: var(--spacing-sm);
-}
-
-.mobileMenuText {
-  font-size: var(--font-size-md);
-  font-weight: var(--font-weight-semibold);
-  text-transform: uppercase;
-  color: var(--color-green-500);
 }
