@@ -9,6 +9,7 @@
   --color-gray-200: #f1f3f8; /* sort dropdown, podcast skeleton */
   --color-gray-250: #d3d5dc; /* podcast skeleton bg */
   --color-gray-300: #9fadbc; /* podcast specs */
+  --color-gray-350: #e9edee; /* podcast hover */
   --color-gray-400: #ececea; /* footer social bg */
   --color-gray-500: #5c6266; /* articles text submenu */
   --color-gray-600: #333333; /*  banner text */
@@ -40,6 +41,8 @@
   --spacing-sm: 8px;
   --spacing-md: 16px;
   --spacing-lg: 32px;
+
+  --transition-duration: 525ms; /* NO SPEC: taken from https://aircall.io/brand/ */
 }
 
 html,

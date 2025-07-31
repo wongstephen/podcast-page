@@ -5,6 +5,7 @@ import Button from '@/lib/components/atoms/Button/Button';
 import { getDictionary } from '@/lib/utilities/dictionaries/dictionaries';
 import styles from './Banner.module.css';
 import Link from 'next/link';
+import { DownArrowIcon } from '@/lib/components/atoms/Icons/DownArrowIcon';
 
 function Banner() {
   const dict = getDictionary('en');
@@ -20,9 +21,10 @@ function Banner() {
           <Button appearance="outline" size="small">
             {dict.common.banner.login}
           </Button>
-          <Button appearance="outline-secondary" size="small">
+          <Button className={styles.localeButton} appearance="outline-secondary" size="small">
             {/* TODO: Add options input for language selection */}
             {dict.common.locales.fr}
+            <DownArrowIcon className={styles.expandLocaleIcon} />
           </Button>
         </div>
       </div>
