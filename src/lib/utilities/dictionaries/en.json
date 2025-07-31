@@ -27,6 +27,7 @@
       }
     },
     "listenNow": "Listen now",
+    "comingSoon": "Coming soon",
     "locales": {
       "en": "EN",
       "fr": "FR"
@@ -79,7 +80,7 @@
       }
     },
     "latestReleases": {
-      "title": "the latest releases"
+      "title": "The latest releases"
     },
     "latestArticles": {
       "title": "Discover our latest articles"

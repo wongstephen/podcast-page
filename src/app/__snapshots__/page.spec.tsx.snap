@@ -621,6 +621,261 @@ inform, and inspire.
         </div>
       </div>
     </div>
+    <section
+      class="container"
+    >
+      <div
+        class="header"
+      >
+        <h2
+          class="title"
+        >
+          The latest releases
+        </h2>
+        <button
+          aria-label="Sort Podcast By"
+          class="sortButton"
+        >
+          <span>
+            Sort by
+          </span>
+          <svg
+            class="expandIcon"
+            fill="none"
+            viewBox="0 0 8 5"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              d="m2.829 3.829.707.707.707-.707.353-.354 1.415-1.414L7.07 1 6.364.292l-1.06 1.06-1.415 1.415-.353.353-.354-.353-1.414-1.414L.708.293 0 1l1.06 1.06 1.415 1.415.354.354Z"
+              fill="currentColor"
+              fill-rule="evenodd"
+              opacity="0.5"
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        class="cardContainer"
+      >
+        <article
+          class="card"
+        >
+          <div
+            class="container content"
+          >
+            <div
+              class="imageWrapper"
+            >
+              <img
+                alt="The Data-Driven Way to Put Customers First"
+                data-nimg="fill"
+                decoding="async"
+                loading="lazy"
+                sizes="100vw"
+                src="/_next/image?url=%2Fpodcast%2Fpodcast1.webp&w=3840&q=75"
+                srcset="/_next/image?url=%2Fpodcast%2Fpodcast1.webp&w=640&q=75 640w, /_next/image?url=%2Fpodcast%2Fpodcast1.webp&w=750&q=75 750w, /_next/image?url=%2Fpodcast%2Fpodcast1.webp&w=828&q=75 828w, /_next/image?url=%2Fpodcast%2Fpodcast1.webp&w=1080&q=75 1080w, /_next/image?url=%2Fpodcast%2Fpodcast1.webp&w=1200&q=75 1200w, /_next/image?url=%2Fpodcast%2Fpodcast1.webp&w=1920&q=75 1920w, /_next/image?url=%2Fpodcast%2Fpodcast1.webp&w=2048&q=75 2048w, /_next/image?url=%2Fpodcast%2Fpodcast1.webp&w=3840&q=75 3840w"
+                style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+              />
+              <div
+                class="overlayWrapper"
+              >
+                <div
+                  class="overlayCircle"
+                />
+                <svg
+                  class="overlayIcon"
+                  fill="none"
+                  viewBox="0 0 32 34"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M29.557 14.304c2.134 1.164 2.134 4.228 0 5.393L5.257 32.95C3.21 34.068.713 32.586.713 30.255V3.745c0-2.33 2.496-3.812 4.542-2.696l24.3 13.255Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div
+              class="content"
+            >
+              <p
+                class="episodeInfo"
+              >
+                S
+                01
+                E
+                01
+                 | 
+                32
+                MIN
+              </p>
+              <h3
+                class="title"
+              >
+                The Data-Driven Way to Put Customers First
+              </h3>
+              <div
+                class="listenNow"
+              >
+                <svg
+                  class="playIcon"
+                  fill="none"
+                  viewBox="0 0 28 28"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="14"
+                    cy="14"
+                    fill="#00B388"
+                    fill-opacity="0.15"
+                    r="14"
+                  />
+                  <path
+                    d="M19.39 13.122a1 1 0 0 1 0 1.756l-7.911 4.315A1 1 0 0 1 10 18.315v-8.63a1 1 0 0 1 1.479-.878l7.912 4.315Z"
+                    fill="#00B388"
+                  />
+                </svg>
+                Listen now
+              </div>
+            </div>
+          </div>
+        </article>
+        <article
+          class="card"
+        >
+          <div
+            class="container content"
+          >
+            <div
+              class="imageWrapper"
+            >
+              <img
+                alt="What Is Interactive Voice Response"
+                data-nimg="fill"
+                decoding="async"
+                loading="lazy"
+                sizes="100vw"
+                src="/_next/image?url=%2Fpodcast%2Fpodcast2.webp&w=3840&q=75"
+                srcset="/_next/image?url=%2Fpodcast%2Fpodcast2.webp&w=640&q=75 640w, /_next/image?url=%2Fpodcast%2Fpodcast2.webp&w=750&q=75 750w, /_next/image?url=%2Fpodcast%2Fpodcast2.webp&w=828&q=75 828w, /_next/image?url=%2Fpodcast%2Fpodcast2.webp&w=1080&q=75 1080w, /_next/image?url=%2Fpodcast%2Fpodcast2.webp&w=1200&q=75 1200w, /_next/image?url=%2Fpodcast%2Fpodcast2.webp&w=1920&q=75 1920w, /_next/image?url=%2Fpodcast%2Fpodcast2.webp&w=2048&q=75 2048w, /_next/image?url=%2Fpodcast%2Fpodcast2.webp&w=3840&q=75 3840w"
+                style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+              />
+              <div
+                class="overlayWrapper"
+              >
+                <div
+                  class="overlayCircle"
+                />
+                <svg
+                  class="overlayIcon"
+                  fill="none"
+                  viewBox="0 0 32 34"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M29.557 14.304c2.134 1.164 2.134 4.228 0 5.393L5.257 32.95C3.21 34.068.713 32.586.713 30.255V3.745c0-2.33 2.496-3.812 4.542-2.696l24.3 13.255Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div
+              class="content"
+            >
+              <p
+                class="episodeInfo"
+              >
+                S
+                01
+                E
+                02
+                 | 
+                32
+                MIN
+              </p>
+              <h3
+                class="title"
+              >
+                What Is Interactive Voice Response
+              </h3>
+              <div
+                class="listenNow"
+              >
+                <svg
+                  class="playIcon"
+                  fill="none"
+                  viewBox="0 0 28 28"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="14"
+                    cy="14"
+                    fill="#00B388"
+                    fill-opacity="0.15"
+                    r="14"
+                  />
+                  <path
+                    d="M19.39 13.122a1 1 0 0 1 0 1.756l-7.911 4.315A1 1 0 0 1 10 18.315v-8.63a1 1 0 0 1 1.479-.878l7.912 4.315Z"
+                    fill="#00B388"
+                  />
+                </svg>
+                Listen now
+              </div>
+            </div>
+          </div>
+        </article>
+        <article
+          class="card"
+        >
+          <div
+            class="container"
+          >
+            <div
+              class="imageWrapper"
+            >
+              <div
+                class="skeletonImage"
+              >
+                <p>
+                  Coming soon
+                </p>
+              </div>
+            </div>
+            <div
+              class="skeletonText"
+            />
+            <div
+              class="skeletonText"
+            />
+          </div>
+        </article>
+        <article
+          class="card"
+        >
+          <div
+            class="container"
+          >
+            <div
+              class="imageWrapper"
+            >
+              <div
+                class="skeletonImage"
+              >
+                <p>
+                  Coming soon
+                </p>
+              </div>
+            </div>
+            <div
+              class="skeletonText"
+            />
+            <div
+              class="skeletonText"
+            />
+          </div>
+        </article>
+      </div>
+    </section>
   </main>
   <footer />
 </div>
