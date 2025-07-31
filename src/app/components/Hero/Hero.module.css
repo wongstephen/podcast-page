@@ -94,6 +94,7 @@
 @container grid (min-width: 500px) {
   .podcastText {
     display: block;
+    font-size: var(--font-size-sm); /* 14px */
   }
 
   .podcastIcon {

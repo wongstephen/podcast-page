@@ -5,5 +5,5 @@ export type Podcast = {
   season: number;
   episode: number;
   date: string;
-  image?: string;
+  image: string;
 };
