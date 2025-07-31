@@ -7,5 +7,5 @@ export type Article = {
   tag: ArticleTag;
   duration: number;
   date: string;
-  image?: string;
+  image: string;
 };

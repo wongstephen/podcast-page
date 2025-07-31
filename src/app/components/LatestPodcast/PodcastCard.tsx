@@ -18,8 +18,8 @@ const dict = getDictionary('en');
 
 function Skeleton({ className }: React.ComponentProps<'div'>) {
   return (
-    <div className={cn(styles.container, className)}>
-      <div className={styles.imageWrapper}>
+    <div className={cn(styles.skeletonContainer, className)}>
+      <div className={styles.skeletonImageWrapper}>
         <div className={styles.skeletonImage}>
           <p>{dict.common.comingSoon}</p>
         </div>
