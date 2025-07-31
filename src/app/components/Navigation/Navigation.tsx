@@ -10,11 +10,13 @@ import Banner from './Banner';
 
 import styles from './Navigation.module.css';
 
+import NavSubMenu from './NavSubMenu';
+
 export default function Navigation() {
   const dict = getDictionary('en');
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
-  const handleClick = () => {
+  const handleMenuClick = () => {
     // Logic to toggle the menu visibility
     // TODO: Implement the actual menu toggle logic
     setIsMenuOpen((prev) => !prev);
@@ -24,14 +26,14 @@ export default function Navigation() {
     <div className={styles.wrapper}>
       <div className={styles.container}>
         <Banner />
-        <div className={styles.logoContainer}>
-          <AircallLogo className={styles.logo} />
-          <nav>
+        <nav className={styles.navigation}>
+          <div className={styles.logoContainer}>
+            <AircallLogo className={styles.logo} />
             <div className={styles.mobileMenuContainer}>
               <Button
                 aria-label="Toggle navigation menu"
                 aria-expanded={isMenuOpen}
-                onClick={handleClick}
+                onClick={handleMenuClick}
                 appearance="transparent"
                 size="none"
                 className={styles.menuButton}
@@ -46,8 +48,9 @@ export default function Navigation() {
                 </span>
               </Button>
             </div>
-          </nav>
-        </div>
+          </div>
+          <NavSubMenu />
+        </nav>
       </div>
     </div>
   );

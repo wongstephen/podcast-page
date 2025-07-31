@@ -44,11 +44,13 @@
       },
 
       "secondary": {
-        "blog": "Blog",
-        "helpCenter": "Help Center",
-        "status": "Status",
-        "contactUs": "Contact Us",
-        "login": "Login"
+        "all": "All",
+        "callCenter": "Call Center",
+        "support": "Support",
+        "customerStories": "Customer Stories",
+        "webinars": "Webinars",
+        "podcast": "Podcast",
+        "more": "More"
       }
     },
     "podcastCategories": {

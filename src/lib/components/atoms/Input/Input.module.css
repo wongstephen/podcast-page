@@ -1,0 +1,9 @@
+.container {
+  background-color: var(--color-gray-100);
+  border: none;
+
+  font-family: var(--font-primary);
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-gray-500);
+}
