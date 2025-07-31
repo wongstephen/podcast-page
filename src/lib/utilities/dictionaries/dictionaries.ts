@@ -1,5 +1,6 @@
 import { type Language } from '@/lib/utilities/dictionaries/types';
 import en from '@/lib/utilities/dictionaries/en.json';
+import { logError } from '../logger';
 
 /**
  *
@@ -12,8 +13,8 @@ export const getDictionary = (lang: Language) => {
   };
 
   if (!dictionaries[lang]) {
-    console.log(new Error(`Language ${lang} not found.`));
-    // TODO: send to logging service and return default language
+    const error = new Error(`Language ${lang} not found.`);
+    logError(error);
   }
   return dictionaries[lang || 'en'];
 };
