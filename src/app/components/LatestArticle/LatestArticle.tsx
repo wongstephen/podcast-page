@@ -1,13 +1,14 @@
 import React from 'react';
 
 import { getDictionary } from '@/lib/utilities/dictionaries/dictionaries';
-import { articles } from '@/lib/mockData/article.json';
+import articlesData from '@/lib/mockData/article.json';
 import styles from './LatestArticle.module.css';
 import ArticleCard from './ArticleCard';
 import { Article } from '@/lib/types/article';
 
 export default function LatestArticle() {
   const dict = getDictionary('en');
+  const { articles } = articlesData;
   return (
     <div className={styles.container}>
       <h2 className={styles.articleSectionTitle}>
