@@ -5,6 +5,7 @@ import { getDictionary } from '@/lib/utilities/dictionaries/dictionaries';
 import { SpotifyIcon } from '@/lib/components/atoms/Icons/SpotifyIcon';
 import { DeezerIcon } from '@/lib/components/atoms/Icons/DeezerIcon';
 import { AppleIcon } from '@/lib/components/atoms/Icons/AppleIcon';
+import { heroData } from '@/lib/constants/hero';
 
 import styles from './Hero.module.css';
 import Link from 'next/link';
@@ -18,12 +19,12 @@ export default function Hero() {
         <div className={styles.heroImageContainer}>
           {/* Note: The image path and specs should be provided by the cms */}
           <Image
-            src={`${process.env.PAGES_BASE_PATH || ''}/hero-image.webp`}
-            alt="The Power of Conversation"
-            width={311}
-            height={233.42}
+            src={heroData.heroImage.src}
+            alt={heroData.heroImage.alt}
+            width={heroData.heroImage.width}
+            height={heroData.heroImage.height}
             className={styles.heroImage}
-            sizes="(min-width: 1040px) 481px, (min-width: 1000px) calc(-385vw + 4404px), (min-width: 560px) 452px, calc(90vw - 34px)"
+            sizes={heroData.heroImage.sizes}
             priority
           />
         </div>
