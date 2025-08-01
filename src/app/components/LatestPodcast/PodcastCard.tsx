@@ -40,7 +40,7 @@ export default function PodcastCard(props: PodcastCardProps) {
     <div className={cn(styles.container, styles.content, className)}>
       <div className={cn(styles.imageWrapper)}>
         <Image
-          src={`${process.env.PAGES_BASE_PATH || ''}${image}`}
+          src={image}
           alt={title}
           fill
           sizes="(min-width: 1020px) 426px, (min-width: 480px) 466px, calc(95.63vw + 15px)"
