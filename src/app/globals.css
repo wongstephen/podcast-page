@@ -1,22 +1,25 @@
 @font-face {
   font-family: 'Fellix';
-  src: url(../lib/fonts/fellix/Fellix-Regular.woff2) format('woff2');
+  src: url(/podcast-page/fonts/Fellix-Regular.woff2) format('woff2');
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Fellix';
-  src: url(../lib/fonts/fellix/Fellix-Medium.woff2) format('woff2');
+  src: url(/podcast-page/fonts/Fellix-Medium.woff2) format('woff2');
   font-weight: 500;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Fellix';
-  src: url(../lib/fonts/fellix/Fellix-SemiBold.woff2) format('woff2');
+  src: url(/podcast-page/fonts/Fellix-SemiBold.woff2) format('woff2');
   font-weight: 600;
   font-style: normal;
+  font-display: swap;
 }
 :root {
   --color-green-500: #00b388; /* primary green - button, button-outline, play, search icon, articles tag */
