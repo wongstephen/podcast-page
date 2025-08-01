@@ -28,7 +28,7 @@
 .content {
   padding-inline: var(--padding-large);
   display: flex;
-  gap: 16px;
+  gap: var(--spacing-md);
   flex-direction: column;
 }
 
@@ -49,6 +49,7 @@
 
 .subscribeLinksContainer {
   display: flex;
+  gap: 24px;
 }
 
 .subscribeLink {
@@ -59,7 +60,6 @@
   line-height: 1.5rem;
   letter-spacing: 0px;
   border-radius: 16px;
-  padding: 14px;
 
   transition: background-color var(--transition-duration) ease-in-out;
 
@@ -134,10 +134,18 @@
     white-space: pre-wrap;
   }
 
+  .subscribeLinksContainer {
+    gap: unset;
+  }
+
   .subscribeTitle {
     font-weight: var(--font-weight-semibold);
     font-size: 1.25rem;
     line-height: 1.75rem; /* 28px */
+  }
+
+  .subscribeLink {
+    padding: 14px;
   }
 }
 

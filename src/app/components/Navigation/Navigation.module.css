@@ -28,8 +28,8 @@
 }
 
 .logo {
-  width: 120px;
-  height: auto;
+  width: auto;
+  height: 35px;
 }
 
 @media screen and (min-width: 1440px) {
