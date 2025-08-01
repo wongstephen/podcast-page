@@ -39,7 +39,11 @@ export default function PodcastCard(props: PodcastCardProps) {
   return (
     <div className={cn(styles.container, styles.content, className)}>
       <div className={cn(styles.imageWrapper)}>
-        <Image src={image} alt={title} fill />
+        <Image
+          src={`${process.env.PAGES_BASE_PATH || ''}${image}`}
+          alt={title}
+          fill
+        />
         <div className={styles.overlayWrapper}>
           <div className={styles.overlayCircle} />
           <PlayTriangleIcon className={styles.overlayIcon} />
