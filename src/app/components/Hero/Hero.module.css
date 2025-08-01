@@ -1,10 +1,6 @@
 .container {
-  --padding-large: 32px;
-  --padding-small: 16px;
-
   background: linear-gradient(#e4f2f8, #e4f2f800);
-  padding-top: var(--padding-large);
-  padding-bottom: var(--padding-small);
+  padding: var(--spacing-xl) var(--spacing-lg);
 
   display: flex;
   justify-content: center;
@@ -16,6 +12,7 @@
 .heroImageContainer {
   display: flex;
   justify-content: center;
+  /* padding: var(--padding-large); */
 }
 
 .heroImage {
@@ -43,6 +40,9 @@
 .grid {
   display: grid;
   max-width: var(--breakpoint-lg);
+  width: 100%;
+
+  gap: var(--spacing-lg);
 }
 
 /* subscribe section */
@@ -102,10 +102,13 @@
   }
 }
 
-@container grid (min-width: 1000px) {
+@media screen and (min-width: 1000px) {
+  .container {
+    padding: var(--spacing-xxl) var(--spacing-lg);
+  }
+
   .grid {
     grid-template-columns: 1.1fr 0.9fr;
-    padding: var(--spacing-lg);
   }
 
   .content {
@@ -121,7 +124,7 @@
   }
 
   .heroImage {
-    width: 100%;
+    width: 469px;
     height: auto;
     padding: 0;
     max-width: unset;
@@ -146,18 +149,5 @@
 
   .subscribeLink {
     padding: 14px;
-  }
-}
-
-@container grid (min-width: 1080px) {
-  /* TODO: Adjustments until a hero image to spec is provided */
-  .heroImage {
-    transform: scale(1.2) translateY(36px) translateX(28px);
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .container {
-    padding: unset;
   }
 }
