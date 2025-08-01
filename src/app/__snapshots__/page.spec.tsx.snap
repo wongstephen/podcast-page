@@ -516,6 +516,7 @@ inform, and inspire.
             <a
               class="subscribeLink"
               href="#"
+              title="Spotify"
             >
               <svg
                 class="podcastIcon"
@@ -557,6 +558,7 @@ inform, and inspire.
             <a
               class="subscribeLink"
               href="#"
+              title="Deezer"
             >
               <svg
                 class="podcastIcon"
@@ -598,6 +600,7 @@ inform, and inspire.
             <a
               class="subscribeLink"
               href="#"
+              title="Apple Podcasts"
             >
               <svg
                 class="podcastIcon"

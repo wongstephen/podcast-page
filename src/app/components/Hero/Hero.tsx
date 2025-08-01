@@ -34,19 +34,31 @@ export default function Hero() {
           <p className={styles.subscribeTitle}>{dict.home.hero.subscribe}</p>
           {/* TODO: If this is repeated in other parts of the site, consider creating a shared component for the podcast subscription links. */}
           <div className={styles.subscribeLinksContainer}>
-            <Link className={styles.subscribeLink} href="#">
+            <Link
+              className={styles.subscribeLink}
+              href="#"
+              title={dict.home.hero.podcastList.spotify}
+            >
               <SpotifyIcon className={styles.podcastIcon} />
               <p className={styles.podcastText}>
                 {dict.home.hero.podcastList.spotify}
               </p>
             </Link>
-            <Link className={styles.subscribeLink} href="#">
+            <Link
+              className={styles.subscribeLink}
+              href="#"
+              title={dict.home.hero.podcastList.deezer}
+            >
               <DeezerIcon className={styles.podcastIcon} />
               <p className={styles.podcastText}>
                 {dict.home.hero.podcastList.deezer}
               </p>
             </Link>
-            <Link className={styles.subscribeLink} href="#">
+            <Link
+              className={styles.subscribeLink}
+              href="#"
+              title={dict.home.hero.podcastList.apple}
+            >
               <AppleIcon className={styles.podcastIcon} />
               <p className={styles.podcastText}>
                 {dict.home.hero.podcastList.apple}
