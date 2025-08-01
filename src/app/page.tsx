@@ -1,3 +1,4 @@
+import Footer from './components/Footer/Footer';
 import Hero from './components/Hero/Hero';
 import LatestArticle from './components/LatestArticle/LatestArticle';
 import LatestPodcast from './components/LatestPodcast/LatestPodcast';
@@ -17,7 +18,9 @@ export default function Home() {
         <LatestPodcast />
         <LatestArticle />
       </main>
-      <footer></footer>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 }

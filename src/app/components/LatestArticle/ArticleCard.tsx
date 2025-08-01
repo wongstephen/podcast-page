@@ -28,7 +28,11 @@ export default function ArticleCard({
         <div className={styles.articleContent}>
           <p className={styles.articleMeta}>
             <span data-tag={tag.toLowerCase()} className={styles.articleTag}>
-              {tag}
+              {
+                dict.common.podcastCategories[
+                  tag.toLowerCase() as keyof typeof dict.common.podcastCategories
+                ]
+              }
             </span>
             <span>&#8226;</span>
             <span>
