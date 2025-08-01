@@ -51,8 +51,11 @@ export default function PodcastCard(props: PodcastCardProps) {
       </div>
       <div className={styles.content}>
         <p className={styles.episodeInfo}>
-          S{season.toString().padStart(2, '0')}E
-          {episode.toString().padStart(2, '0')} | {duration}MIN
+          {dict.home.latestReleases.abbreviation.season}
+          {season.toString().padStart(2, '0')}{' '}
+          {dict.home.latestReleases.abbreviation.episode}
+          {episode.toString().padStart(2, '0')} | {duration}{' '}
+          {dict.home.latestReleases.abbreviation.minutes}
         </p>
         <h3 className={styles.title}>{title}</h3>
 

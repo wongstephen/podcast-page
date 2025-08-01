@@ -38,7 +38,6 @@
         "press": "Press",
         "wereHiring": "We’re hiring!"
       },
-
       "banner": {
         "copyright": "© Aircall",
         "privacy": "Privacy",
@@ -52,6 +51,7 @@
       "en": "EN",
       "fr": "FR"
     },
+
     "navigation": {
       "skipToMain": "Skip to Main",
       "main": {
@@ -100,7 +100,12 @@
       }
     },
     "latestReleases": {
-      "title": "The latest releases"
+      "title": "The latest releases",
+      "abbreviation": {
+        "season": "S",
+        "episode": "E",
+        "minutes": "MIN"
+      }
     },
     "latestArticles": {
       "title": "Discover our latest articles",
