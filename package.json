@@ -34,7 +34,7 @@
     "typescript": "5.8.3"
   },
   "engines": {
-    "node": ">=18.17 <=20.x.x",
+    "node": ">=18.17",
     "yarn": "1.22.x",
     "npm": "please-use-yarn"
   }

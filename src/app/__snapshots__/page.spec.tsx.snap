@@ -752,7 +752,7 @@ inform, and inspire.
               class="imageWrapper"
             >
               <img
-                alt="What Is Interactive Voice Response"
+                alt="The Data-Driven Way to Put Customers First"
                 data-nimg="fill"
                 decoding="async"
                 loading="lazy"
@@ -797,7 +797,7 @@ inform, and inspire.
               <h3
                 class="title"
               >
-                What Is Interactive Voice Response
+                The Data-Driven Way to Put Customers First
               </h3>
               <div
                 class="listenNow"
@@ -1012,7 +1012,7 @@ inform, and inspire.
                   class="articleTag"
                   data-tag="life"
                 >
-                  LIFE
+                  LIFE AT AIRCALL
                 </span>
                 <span>
                   •
@@ -1083,6 +1083,618 @@ inform, and inspire.
       </div>
     </div>
   </main>
-  <footer />
+  <footer>
+    <div
+      class="container"
+    >
+      <div
+        class="taglineContainer"
+      >
+        <svg
+          class="logo"
+          fill="none"
+          viewBox="0 0 36 37"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M27.063.796C25.04.328 21.711.022 17.95.022c-3.762 0-7.09.306-9.115.774A10.468 10.468 0 0 0 .772 8.881C.305 10.911 0 14.25 0 18.022c0 3.773.305 7.11.772 9.14a10.468 10.468 0 0 0 8.062 8.086c2.025.468 5.353.774 9.115.774 3.762 0 7.09-.306 9.114-.774a10.468 10.468 0 0 0 8.062-8.085c.468-2.03.772-5.368.772-9.141 0-3.773-.304-7.11-.772-9.14A10.468 10.468 0 0 0 27.063.795Z"
+            fill="#00B388"
+            fill-rule="evenodd"
+          />
+          <mask
+            height="37"
+            id="a"
+            maskUnits="userSpaceOnUse"
+            style="mask-type: luminance;"
+            width="36"
+            x="0"
+            y="0"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M27.063.796C25.04.328 21.711.022 17.95.022c-3.762 0-7.09.306-9.115.774A10.468 10.468 0 0 0 .772 8.881C.305 10.911 0 14.25 0 18.022c0 3.773.305 7.11.772 9.14a10.468 10.468 0 0 0 8.062 8.086c2.025.468 5.353.774 9.115.774 3.762 0 7.09-.306 9.114-.774a10.468 10.468 0 0 0 8.062-8.085c.468-2.03.772-5.368.772-9.141 0-3.773-.304-7.11-.772-9.14A10.468 10.468 0 0 0 27.063.795Z"
+              fill="#fff"
+              fill-rule="evenodd"
+            />
+          </mask>
+          <g
+            mask="url(#a)"
+          >
+            <path
+              d="M22.262 27.656a2.721 2.721 0 0 0-1.943-1.61c-.527-.122-1.392-.201-2.37-.201-.978 0-1.844.08-2.37.201a2.72 2.72 0 0 0-1.936 1.593c-.112.263-.359.453-.644.427a30.748 30.748 0 0 1-.256-.024c-1.408-.14-2.514-.337-3.157-.566a1.142 1.142 0 0 1-.735-1.219c.11-1.468 1-4.908 2.329-8.834 1.519-4.488 3.107-8.121 3.824-8.83a1.538 1.538 0 0 1 .613-.392c.471-.16 1.338-.266 2.331-.266.994 0 1.862.107 2.331.266l.008.003a1.54 1.54 0 0 1 .607.39c.716.708 2.305 4.341 3.824 8.83 1.329 3.925 2.218 7.365 2.328 8.834a.545.545 0 0 0 .004.05 3.445 3.445 0 0 1 .004.097 1.142 1.142 0 0 1-.742 1.072c-.643.228-1.748.424-3.153.565l-.28.026c-.273.024-.51-.158-.617-.412Z"
+              fill="#fff"
+            />
+          </g>
+        </svg>
+        <p
+          class="tagline"
+        >
+          The phone system for modern business
+        </p>
+      </div>
+      <div
+        class="footerLinksWrapper"
+      >
+        <div
+          class="footerLinksContainer"
+        >
+          <div
+            class="footerLinkGroup"
+          >
+            <h4
+              class="footerLinkGroupLabel"
+            >
+              Why Aircall
+            </h4>
+            <ul
+              class="footerLinksList"
+            >
+              <li
+                class="footerLinkItem"
+              >
+                <a
+                  class="footerLink "
+                  href="#"
+                  target="_self"
+                >
+                  Country Coverage
+                </a>
+              </li>
+              <li
+                class="footerLinkItem"
+              >
+                <a
+                  class="footerLink "
+                  href="#"
+                  target="_self"
+                >
+                  Pricing
+                </a>
+              </li>
+              <li
+                class="footerLinkItem"
+              >
+                <a
+                  class="footerLink muted"
+                  href="#"
+                  target="_self"
+                >
+                  Status
+                  <span
+                    class="tagText"
+                    data-tag="muted"
+                  >
+                    99.9%
+                  </span>
+                </a>
+              </li>
+              <li
+                class="footerLinkItem"
+              >
+                <a
+                  class="footerLink "
+                  href="#"
+                  target="_self"
+                >
+                  Developer
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="footerLinkGroup"
+          >
+            <h4
+              class="footerLinkGroupLabel"
+            >
+              Product
+            </h4>
+            <ul
+              class="footerLinksList"
+            >
+              <li
+                class="footerLinkItem"
+              >
+                <a
+                  class="footerLink "
+                  href="#"
+                  target="_self"
+                >
+                  Integrations
+                </a>
+              </li>
+              <li
+                class="footerLinkItem"
+              >
+                <a
+                  class="footerLink "
+                  href="#"
+                  target="_self"
+                >
+                  Features
+                </a>
+              </li>
+              <li
+                class="footerLinkItem"
+              >
+                <a
+                  class="footerLink "
+                  href="#"
+                  target="_self"
+                >
+                  Quality and Reliability
+                </a>
+              </li>
+              <li
+                class="footerLinkItem"
+              >
+                <a
+                  class="footerLink "
+                  href="#"
+                  target="_self"
+                >
+                  Apps
+                </a>
+              </li>
+              <li
+                class="footerLinkItem"
+              >
+                <a
+                  class="footerLink "
+                  href="#"
+                  target="_self"
+                >
+                  Request a Demo
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="footerLinkGroup"
+          >
+            <h4
+              class="footerLinkGroupLabel"
+            >
+              Solutions
+            </h4>
+            <ul
+              class="footerLinksList"
+            >
+              <li
+                class="footerLinkItem"
+              >
+                <a
+                  class="footerLink "
+                  href="#"
+                  target="_self"
+                >
+                  Call Center
+                </a>
+              </li>
+              <li
+                class="footerLinkItem"
+              >
+                <a
+                  class="footerLink "
+                  href="#"
+                  target="_self"
+                >
+                  Inbound Call Center Software
+                </a>
+              </li>
+              <li
+                class="footerLinkItem"
+              >
+                <a
+                  class="footerLink "
+                  href="#"
+                  target="_self"
+                >
+                  Support
+                </a>
+              </li>
+              <li
+                class="footerLinkItem"
+              >
+                <a
+                  class="footerLink "
+                  href="#"
+                  target="_self"
+                >
+                  Sales
+                </a>
+              </li>
+              <li
+                class="footerLinkItem"
+              >
+                <a
+                  class="footerLink "
+                  href="#"
+                  target="_self"
+                >
+                  Outbound Call Center Software
+                </a>
+              </li>
+              <li
+                class="footerLinkItem"
+              >
+                <a
+                  class="footerLink "
+                  href="#"
+                  target="_self"
+                >
+                  Phone System
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="footerLinkGroup"
+          >
+            <h4
+              class="footerLinkGroupLabel"
+            >
+              Resources
+            </h4>
+            <ul
+              class="footerLinksList"
+            >
+              <li
+                class="footerLinkItem"
+              >
+                <a
+                  class="footerLink "
+                  href="#"
+                  target="_self"
+                >
+                  Blog
+                </a>
+              </li>
+              <li
+                class="footerLinkItem"
+              >
+                <a
+                  class="footerLink "
+                  href="#"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  FAQ
+                  <svg
+                    class="externalIcon"
+                    fill="none"
+                    viewBox="0 0 16 16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M13.2614 3.50124L1.60156 13.4994"
+                      stroke="currentColor"
+                      stroke-miterlimit="10"
+                      stroke-width="1.2"
+                    />
+                    <path
+                      d="M4.75781 3.24219H13.2431V11.7275"
+                      stroke="currentColor"
+                      stroke-miterlimit="10"
+                      stroke-width="1.2"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li
+                class="footerLinkItem"
+              >
+                <a
+                  class="footerLink "
+                  href="#"
+                  target="_self"
+                >
+                  Customer Studies
+                </a>
+              </li>
+              <li
+                class="footerLinkItem"
+              >
+                <a
+                  class="footerLink "
+                  href="#"
+                  target="_self"
+                >
+                  Partner Stories
+                </a>
+              </li>
+              <li
+                class="footerLinkItem"
+              >
+                <a
+                  class="footerLink "
+                  href="#"
+                  target="_self"
+                >
+                  Become a Partner
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="footerLinkGroup"
+          >
+            <h4
+              class="footerLinkGroupLabel"
+            >
+              Company
+            </h4>
+            <ul
+              class="footerLinksList"
+            >
+              <li
+                class="footerLinkItem"
+              >
+                <a
+                  class="footerLink "
+                  href="#"
+                  target="_self"
+                >
+                  Request a Demo
+                </a>
+              </li>
+              <li
+                class="footerLinkItem"
+              >
+                <a
+                  class="footerLink "
+                  href="#"
+                  target="_self"
+                >
+                  Contact Us
+                </a>
+              </li>
+              <li
+                class="footerLinkItem"
+              >
+                <a
+                  class="footerLink "
+                  href="#"
+                  target="_self"
+                >
+                  About Us
+                </a>
+              </li>
+              <li
+                class="footerLinkItem"
+              >
+                <a
+                  class="footerLink standout"
+                  href="#"
+                  target="_self"
+                >
+                  Jobs
+                  <span
+                    class="tagText"
+                    data-tag="standout"
+                  >
+                    We’re hiring!
+                  </span>
+                </a>
+              </li>
+              <li
+                class="footerLinkItem"
+              >
+                <a
+                  class="footerLink "
+                  href="#"
+                  target="_self"
+                >
+                  Press
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="footerLegal"
+        >
+          <ul
+            class="legalLinks"
+          >
+            <p
+              class="copyright"
+            >
+              © Aircall
+            </p>
+            <li>
+              <a
+                class="legalLink"
+                href="#"
+              >
+                Privacy
+              </a>
+            </li>
+            <li>
+              <a
+                class="legalLink"
+                href="#"
+              >
+                Terms of Use
+              </a>
+            </li>
+            <li>
+              <a
+                class="legalLink"
+                href="#"
+              >
+                Site Map
+              </a>
+            </li>
+          </ul>
+          <div
+            class="socialLinks"
+          >
+            <a
+              aria-label="LinkedIn"
+              class="socialLink"
+              href="#"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <svg
+                class="socialIcon"
+                fill="none"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M18.094.516C16.74.204 14.515 0 12 0S7.26.204 5.906.516a6.988 6.988 0 0 0-5.39 5.39C.204 7.26 0 9.485 0 12s.204 4.74.516 6.094a6.988 6.988 0 0 0 5.39 5.39C7.26 23.796 9.485 24 12 24s4.74-.204 6.094-.516a6.988 6.988 0 0 0 5.39-5.39C23.796 16.74 24 14.515 24 12s-.204-4.74-.516-6.094a6.988 6.988 0 0 0-5.39-5.39Z"
+                  fill="#ECECEA"
+                  fill-rule="evenodd"
+                />
+                <mask
+                  height="24"
+                  id="a"
+                  maskUnits="userSpaceOnUse"
+                  style="mask-type: luminance;"
+                  width="24"
+                  x="0"
+                  y="0"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M18.094.516C16.74.204 14.515 0 12 0S7.26.204 5.906.516a6.988 6.988 0 0 0-5.39 5.39C.204 7.26 0 9.485 0 12s.204 4.74.516 6.094a6.988 6.988 0 0 0 5.39 5.39C7.26 23.796 9.485 24 12 24s4.74-.204 6.094-.516a6.988 6.988 0 0 0 5.39-5.39C23.796 16.74 24 14.515 24 12s-.204-4.74-.516-6.094a6.988 6.988 0 0 0-5.39-5.39Z"
+                    fill="#fff"
+                    fill-rule="evenodd"
+                  />
+                </mask>
+                <g
+                  mask="url(#a)"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M8.083 8.268a1.25 1.25 0 1 1 0-2.501 1.25 1.25 0 0 1 0 2.501Zm-1.08 7.887H9.16V9.217H7.004v6.938Zm8.078 0h2.155v-3.806c0-1.868-.403-3.305-2.587-3.305-1.049 0-1.752.575-2.04 1.12h-.029v-.947h-2.068v6.938h2.154v-3.433c0-.904.172-1.781 1.295-1.781 1.105 0 1.12 1.035 1.12 1.84v3.374Z"
+                    fill="#101820"
+                    fill-rule="evenodd"
+                    opacity="0.4"
+                  />
+                </g>
+              </svg>
+            </a>
+            <a
+              aria-label="Twitter"
+              class="socialLink"
+              href="#"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <svg
+                class="socialIcon"
+                fill="none"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M18.094.516C16.74.204 14.515 0 12 0S7.26.204 5.906.516a6.988 6.988 0 0 0-5.39 5.39C.204 7.26 0 9.485 0 12s.204 4.74.516 6.094a6.988 6.988 0 0 0 5.39 5.39C7.26 23.796 9.485 24 12 24s4.74-.204 6.094-.516a6.988 6.988 0 0 0 5.39-5.39C23.796 16.74 24 14.515 24 12s-.204-4.74-.516-6.094a6.988 6.988 0 0 0-5.39-5.39Z"
+                  fill="#ECECEA"
+                  fill-rule="evenodd"
+                />
+                <mask
+                  height="24"
+                  id="a"
+                  maskUnits="userSpaceOnUse"
+                  style="mask-type: luminance;"
+                  width="24"
+                  x="0"
+                  y="0"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M18.094.516C16.74.204 14.515 0 12 0S7.26.204 5.906.516a6.988 6.988 0 0 0-5.39 5.39C.204 7.26 0 9.485 0 12s.204 4.74.516 6.094a6.988 6.988 0 0 0 5.39 5.39C7.26 23.796 9.485 24 12 24s4.74-.204 6.094-.516a6.988 6.988 0 0 0 5.39-5.39C23.796 16.74 24 14.515 24 12s-.204-4.74-.516-6.094a6.988 6.988 0 0 0-5.39-5.39Z"
+                    fill="#fff"
+                    fill-rule="evenodd"
+                  />
+                </mask>
+                <g
+                  mask="url(#a)"
+                >
+                  <path
+                    d="M9.218 18.096c5.658 0 8.754-4.692 8.754-8.754 0-.132 0-.264-.006-.396a6.268 6.268 0 0 0 1.536-1.596 6.236 6.236 0 0 1-1.77.486 3.095 3.095 0 0 0 1.356-1.704 6.12 6.12 0 0 1-1.956.744 3.07 3.07 0 0 0-2.244-.972 3.08 3.08 0 0 0-3 3.78 8.737 8.737 0 0 1-6.342-3.216 3.085 3.085 0 0 0 .954 4.11 3.112 3.112 0 0 1-1.392-.384v.042a3.083 3.083 0 0 0 2.466 3.018 3 3 0 0 1-.81.108c-.198 0-.39-.018-.576-.054a3.077 3.077 0 0 0 2.874 2.136 6.17 6.17 0 0 1-3.822 1.32 5.92 5.92 0 0 1-.732-.042 8.752 8.752 0 0 0 4.71 1.374Z"
+                    fill="#101820"
+                    opacity="0.4"
+                  />
+                </g>
+              </svg>
+            </a>
+            <a
+              aria-label="Facebook"
+              class="socialLink"
+              href="#"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <svg
+                class="socialIcon"
+                fill="none"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M18.094.516C16.74.204 14.515 0 12 0S7.26.204 5.906.516a6.988 6.988 0 0 0-5.39 5.39C.204 7.26 0 9.485 0 12s.204 4.74.516 6.094a6.988 6.988 0 0 0 5.39 5.39C7.26 23.796 9.485 24 12 24s4.74-.204 6.094-.516a6.988 6.988 0 0 0 5.39-5.39C23.796 16.74 24 14.515 24 12s-.204-4.74-.516-6.094a6.988 6.988 0 0 0-5.39-5.39Z"
+                  fill="#ECECEA"
+                  fill-rule="evenodd"
+                />
+                <mask
+                  height="24"
+                  id="a"
+                  maskUnits="userSpaceOnUse"
+                  style="mask-type: luminance;"
+                  width="24"
+                  x="0"
+                  y="0"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M18.094.516C16.74.204 14.515 0 12 0S7.26.204 5.906.516a6.988 6.988 0 0 0-5.39 5.39C.204 7.26 0 9.485 0 12s.204 4.74.516 6.094a6.988 6.988 0 0 0 5.39 5.39C7.26 23.796 9.485 24 12 24s4.74-.204 6.094-.516a6.988 6.988 0 0 0 5.39-5.39C23.796 16.74 24 14.515 24 12s-.204-4.74-.516-6.094a6.988 6.988 0 0 0-5.39-5.39Z"
+                    fill="#fff"
+                    fill-rule="evenodd"
+                  />
+                </mask>
+                <g
+                  mask="url(#a)"
+                >
+                  <path
+                    d="M12.548 19v-6.377h2.072l.31-2.496h-2.382v-1.59c0-.721.193-1.212 1.19-1.212H15V5.098c-.22-.03-.974-.098-1.85-.098-1.832 0-3.086 1.16-3.086 3.29v1.837H8v2.496h2.064V19h2.484Z"
+                    fill="#101820"
+                    opacity="0.4"
+                  />
+                </g>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 </div>
 `;

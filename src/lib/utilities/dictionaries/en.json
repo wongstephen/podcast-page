@@ -7,16 +7,36 @@
     },
     "footer": {
       "navigation": {
-        "whyAirCall": "Why Aircall",
+        "whyAircall": "Why Aircall",
+        "product": "Product",
+        "solutions": "Solutions",
+        "resources": "Resources",
+        "company": "Company",
         "countryCoverage": "Country Coverage",
         "pricing": "Pricing",
         "status": "Status",
         "developer": "Developer",
-        "product": "Product",
+        "integrations": "Integrations",
         "features": "Features",
         "qualityAndReliability": "Quality and Reliability",
         "apps": "Apps",
-        "requestADemo": "Request a Demo"
+        "requestADemo": "Request a Demo",
+        "callCenter": "Call Center",
+        "inboundCallCenterSoftware": "Inbound Call Center Software",
+        "support": "Support",
+        "sales": "Sales",
+        "outboundCallCenterSoftware": "Outbound Call Center Software",
+        "phoneSystem": "Phone System",
+        "blog": "Blog",
+        "faq": "FAQ",
+        "customerStudies": "Customer Studies",
+        "partnerStories": "Partner Stories",
+        "becomeAPartner": "Become a Partner",
+        "contactUs": "Contact Us",
+        "aboutUs": "About Us",
+        "jobs": "Jobs",
+        "press": "Press",
+        "wereHiring": "We’re hiring!"
       },
 
       "banner": {
@@ -58,7 +78,7 @@
     "podcastCategories": {
       "sales": "SALES",
       "product": "PRODUCT",
-      "Life at Aircall": "LIFE AT AIRCALL"
+      "life": "LIFE AT AIRCALL"
     },
     "search": "Search",
     "social": {
