@@ -1,3 +1,25 @@
+@font-face {
+  font-family: 'Fellix';
+  src: url('https://cdn.aircall.io/fonts/Fellix-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fellix';
+  src: url('https://cdn.aircall.io/fonts/Fellix-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fellix';
+  src: url('https://cdn.aircall.io/fonts/Fellix-SemiBold.otf')
+    format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
 :root {
   --color-green-500: #00b388; /* primary green - button, button-outline, play, search icon, articles tag */
   --color-green-500-alpha-15: #00b38826; /* play button bg with transparency */
@@ -24,7 +46,7 @@
   --border-radius-md: 5px;
   --border-radius-lg: 8px;
 
-  --font-primary: 'Roboto', sans-serif;
+  --font-primary: Fellix, sans-serif;
 
   --font-size-sm: 0.875rem; /* 14px */
   --font-size-md: 1rem; /* 16px */
