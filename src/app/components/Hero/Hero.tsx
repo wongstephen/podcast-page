@@ -6,25 +6,26 @@ import { SpotifyIcon } from '@/lib/components/atoms/Icons/SpotifyIcon';
 import { DeezerIcon } from '@/lib/components/atoms/Icons/DeezerIcon';
 import { AppleIcon } from '@/lib/components/atoms/Icons/AppleIcon';
 import { heroData } from '@/lib/constants/hero';
+import { prefixImgPath } from '@/lib/utilities/prefixImgPath';
 
 import styles from './Hero.module.css';
 import Link from 'next/link';
 
 export default function Hero() {
   const dict = getDictionary('en');
+  const { heroImage } = heroData;
   return (
     <div className={styles.container}>
       <div className={styles.grid}>
         {/* hero image */}
         <div className={styles.heroImageContainer}>
-          {/* Note: The image path and specs should be provided by the cms */}
           <Image
-            src={heroData.heroImage.src}
-            alt={heroData.heroImage.alt}
-            width={heroData.heroImage.width}
-            height={heroData.heroImage.height}
+            src={prefixImgPath(heroImage.src)}
+            alt={heroImage.alt}
+            width={heroImage.width}
+            height={heroImage.height}
             className={styles.heroImage}
-            sizes={heroData.heroImage.sizes}
+            sizes={heroImage.sizes}
             priority
           />
         </div>

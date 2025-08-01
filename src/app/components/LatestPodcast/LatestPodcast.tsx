@@ -42,9 +42,7 @@ export default function LatestPodcast() {
           <PodcastCard
             key={index}
             title={podcastData[index].title}
-            image={`${process.env.PAGES_BASE_PATH || ''}${
-              podcastData[index].image
-            }`}
+            image={podcasts[index].image}
             date={podcastData[index].date}
             duration={podcastData[index].duration}
             episode={podcastData[index].episode}

@@ -5,6 +5,7 @@ import articlesData from '@/lib/mockData/article.json';
 import styles from './LatestArticle.module.css';
 import ArticleCard from './ArticleCard';
 import { Article } from '@/lib/types/article';
+import { prefixImgPath } from '@/lib/utilities/prefixImgPath';
 
 export default function LatestArticle() {
   const dict = getDictionary('en');
@@ -19,7 +20,7 @@ export default function LatestArticle() {
           <ArticleCard
             key={article.id}
             id={article.id}
-            image={article.image}
+            image={prefixImgPath(article.image)}
             title={article.title}
             tag={article.tag as Article['tag']}
             duration={article.duration}
