@@ -43,6 +43,7 @@ export default function PodcastCard(props: PodcastCardProps) {
           src={`${process.env.PAGES_BASE_PATH || ''}${image}`}
           alt={title}
           fill
+          sizes="(min-width: 1020px) 426px, (min-width: 480px) 466px, calc(95.63vw + 15px)"
         />
         <div className={styles.overlayWrapper}>
           <div className={styles.overlayCircle} />

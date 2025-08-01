@@ -24,6 +24,7 @@ export default function ArticleCard({
           width={311}
           height={140}
           className={styles.articleImage}
+          sizes="(min-width: 1440px) 255px, (min-width: 1140px) 323px, (min-width: 840px) calc(26.43vw + 27px), (min-width: 580px) calc(50vw - 39px), calc(95.38vw - 38px)"
         />
         <div className={styles.articleContent}>
           <p className={styles.articleMeta}>

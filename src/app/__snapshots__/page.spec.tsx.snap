@@ -487,9 +487,9 @@ exports[`sanity matches snapshot 1`] = `
             data-nimg="1"
             decoding="async"
             height="233.42"
-            loading="lazy"
-            src="/_next/image?url=%2Fhero-image.webp&w=640&q=75"
-            srcset="/_next/image?url=%2Fhero-image.webp&w=384&q=75 1x, /_next/image?url=%2Fhero-image.webp&w=640&q=75 2x"
+            sizes="(min-width: 1020px) 426px, (min-width: 480px) 466px, calc(95.63vw + 15px)"
+            src="/_next/image?url=%2Fhero-image.webp&w=3840&q=75"
+            srcset="/_next/image?url=%2Fhero-image.webp&w=16&q=75 16w, /_next/image?url=%2Fhero-image.webp&w=32&q=75 32w, /_next/image?url=%2Fhero-image.webp&w=48&q=75 48w, /_next/image?url=%2Fhero-image.webp&w=64&q=75 64w, /_next/image?url=%2Fhero-image.webp&w=96&q=75 96w, /_next/image?url=%2Fhero-image.webp&w=128&q=75 128w, /_next/image?url=%2Fhero-image.webp&w=256&q=75 256w, /_next/image?url=%2Fhero-image.webp&w=384&q=75 384w, /_next/image?url=%2Fhero-image.webp&w=640&q=75 640w, /_next/image?url=%2Fhero-image.webp&w=750&q=75 750w, /_next/image?url=%2Fhero-image.webp&w=828&q=75 828w, /_next/image?url=%2Fhero-image.webp&w=1080&q=75 1080w, /_next/image?url=%2Fhero-image.webp&w=1200&q=75 1200w, /_next/image?url=%2Fhero-image.webp&w=1920&q=75 1920w, /_next/image?url=%2Fhero-image.webp&w=2048&q=75 2048w, /_next/image?url=%2Fhero-image.webp&w=3840&q=75 3840w"
             style="color: transparent;"
             width="311"
           />
@@ -657,28 +657,29 @@ inform, and inspire.
         >
           The latest releases
         </h2>
-        <button
-          aria-label="Sort Podcast By"
-          class="sortButton"
+        <div
+          class="dropdownContainer"
         >
-          <span>
-            Sort by
-          </span>
-          <svg
-            class="expandIcon"
-            fill="none"
-            viewBox="0 0 8 5"
-            xmlns="http://www.w3.org/2000/svg"
+          <button
+            class="sortButton"
           >
-            <path
-              clip-rule="evenodd"
-              d="m2.829 3.829.707.707.707-.707.353-.354 1.415-1.414L7.07 1 6.364.292l-1.06 1.06-1.415 1.415-.353.353-.354-.353-1.414-1.414L.708.293 0 1l1.06 1.06 1.415 1.415.354.354Z"
-              fill="currentColor"
-              fill-rule="evenodd"
-              opacity="0.5"
-            />
-          </svg>
-        </button>
+            Sort by
+            <svg
+              class="expandIcon"
+              fill="none"
+              viewBox="0 0 8 5"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="m2.829 3.829.707.707.707-.707.353-.354 1.415-1.414L7.07 1 6.364.292l-1.06 1.06-1.415 1.415-.353.353-.354-.353-1.414-1.414L.708.293 0 1l1.06 1.06 1.415 1.415.354.354Z"
+                fill="currentColor"
+                fill-rule="evenodd"
+                opacity="0.5"
+              />
+            </svg>
+          </button>
+        </div>
       </div>
       <div
         class="cardContainer"
@@ -697,9 +698,9 @@ inform, and inspire.
                 data-nimg="fill"
                 decoding="async"
                 loading="lazy"
-                sizes="100vw"
+                sizes="(min-width: 1020px) 426px, (min-width: 480px) 466px, calc(95.63vw + 15px)"
                 src="/_next/image?url=%2Fpodcast%2Fpodcast1.webp&w=3840&q=75"
-                srcset="/_next/image?url=%2Fpodcast%2Fpodcast1.webp&w=640&q=75 640w, /_next/image?url=%2Fpodcast%2Fpodcast1.webp&w=750&q=75 750w, /_next/image?url=%2Fpodcast%2Fpodcast1.webp&w=828&q=75 828w, /_next/image?url=%2Fpodcast%2Fpodcast1.webp&w=1080&q=75 1080w, /_next/image?url=%2Fpodcast%2Fpodcast1.webp&w=1200&q=75 1200w, /_next/image?url=%2Fpodcast%2Fpodcast1.webp&w=1920&q=75 1920w, /_next/image?url=%2Fpodcast%2Fpodcast1.webp&w=2048&q=75 2048w, /_next/image?url=%2Fpodcast%2Fpodcast1.webp&w=3840&q=75 3840w"
+                srcset="/_next/image?url=%2Fpodcast%2Fpodcast1.webp&w=16&q=75 16w, /_next/image?url=%2Fpodcast%2Fpodcast1.webp&w=32&q=75 32w, /_next/image?url=%2Fpodcast%2Fpodcast1.webp&w=48&q=75 48w, /_next/image?url=%2Fpodcast%2Fpodcast1.webp&w=64&q=75 64w, /_next/image?url=%2Fpodcast%2Fpodcast1.webp&w=96&q=75 96w, /_next/image?url=%2Fpodcast%2Fpodcast1.webp&w=128&q=75 128w, /_next/image?url=%2Fpodcast%2Fpodcast1.webp&w=256&q=75 256w, /_next/image?url=%2Fpodcast%2Fpodcast1.webp&w=384&q=75 384w, /_next/image?url=%2Fpodcast%2Fpodcast1.webp&w=640&q=75 640w, /_next/image?url=%2Fpodcast%2Fpodcast1.webp&w=750&q=75 750w, /_next/image?url=%2Fpodcast%2Fpodcast1.webp&w=828&q=75 828w, /_next/image?url=%2Fpodcast%2Fpodcast1.webp&w=1080&q=75 1080w, /_next/image?url=%2Fpodcast%2Fpodcast1.webp&w=1200&q=75 1200w, /_next/image?url=%2Fpodcast%2Fpodcast1.webp&w=1920&q=75 1920w, /_next/image?url=%2Fpodcast%2Fpodcast1.webp&w=2048&q=75 2048w, /_next/image?url=%2Fpodcast%2Fpodcast1.webp&w=3840&q=75 3840w"
                 style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
               />
               <div
@@ -776,13 +777,13 @@ inform, and inspire.
               class="imageWrapper"
             >
               <img
-                alt="The Data-Driven Way to Put Customers First"
+                alt="What Is Interactive Voice Response"
                 data-nimg="fill"
                 decoding="async"
                 loading="lazy"
-                sizes="100vw"
+                sizes="(min-width: 1020px) 426px, (min-width: 480px) 466px, calc(95.63vw + 15px)"
                 src="/_next/image?url=%2Fpodcast%2Fpodcast2.webp&w=3840&q=75"
-                srcset="/_next/image?url=%2Fpodcast%2Fpodcast2.webp&w=640&q=75 640w, /_next/image?url=%2Fpodcast%2Fpodcast2.webp&w=750&q=75 750w, /_next/image?url=%2Fpodcast%2Fpodcast2.webp&w=828&q=75 828w, /_next/image?url=%2Fpodcast%2Fpodcast2.webp&w=1080&q=75 1080w, /_next/image?url=%2Fpodcast%2Fpodcast2.webp&w=1200&q=75 1200w, /_next/image?url=%2Fpodcast%2Fpodcast2.webp&w=1920&q=75 1920w, /_next/image?url=%2Fpodcast%2Fpodcast2.webp&w=2048&q=75 2048w, /_next/image?url=%2Fpodcast%2Fpodcast2.webp&w=3840&q=75 3840w"
+                srcset="/_next/image?url=%2Fpodcast%2Fpodcast2.webp&w=16&q=75 16w, /_next/image?url=%2Fpodcast%2Fpodcast2.webp&w=32&q=75 32w, /_next/image?url=%2Fpodcast%2Fpodcast2.webp&w=48&q=75 48w, /_next/image?url=%2Fpodcast%2Fpodcast2.webp&w=64&q=75 64w, /_next/image?url=%2Fpodcast%2Fpodcast2.webp&w=96&q=75 96w, /_next/image?url=%2Fpodcast%2Fpodcast2.webp&w=128&q=75 128w, /_next/image?url=%2Fpodcast%2Fpodcast2.webp&w=256&q=75 256w, /_next/image?url=%2Fpodcast%2Fpodcast2.webp&w=384&q=75 384w, /_next/image?url=%2Fpodcast%2Fpodcast2.webp&w=640&q=75 640w, /_next/image?url=%2Fpodcast%2Fpodcast2.webp&w=750&q=75 750w, /_next/image?url=%2Fpodcast%2Fpodcast2.webp&w=828&q=75 828w, /_next/image?url=%2Fpodcast%2Fpodcast2.webp&w=1080&q=75 1080w, /_next/image?url=%2Fpodcast%2Fpodcast2.webp&w=1200&q=75 1200w, /_next/image?url=%2Fpodcast%2Fpodcast2.webp&w=1920&q=75 1920w, /_next/image?url=%2Fpodcast%2Fpodcast2.webp&w=2048&q=75 2048w, /_next/image?url=%2Fpodcast%2Fpodcast2.webp&w=3840&q=75 3840w"
                 style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
               />
               <div
@@ -821,7 +822,7 @@ inform, and inspire.
               <h3
                 class="title"
               >
-                The Data-Driven Way to Put Customers First
+                What Is Interactive Voice Response
               </h3>
               <div
                 class="listenNow"
@@ -925,8 +926,9 @@ inform, and inspire.
               decoding="async"
               height="140"
               loading="lazy"
-              src="/_next/image?url=%2Farticle%2Farticle1.webp&w=640&q=75"
-              srcset="/_next/image?url=%2Farticle%2Farticle1.webp&w=384&q=75 1x, /_next/image?url=%2Farticle%2Farticle1.webp&w=640&q=75 2x"
+              sizes="(min-width: 1440px) 255px, (min-width: 1140px) 323px, (min-width: 840px) calc(26.43vw + 27px), (min-width: 580px) calc(50vw - 39px), calc(95.38vw - 38px)"
+              src="/_next/image?url=%2Farticle%2Farticle1.webp&w=3840&q=75"
+              srcset="/_next/image?url=%2Farticle%2Farticle1.webp&w=16&q=75 16w, /_next/image?url=%2Farticle%2Farticle1.webp&w=32&q=75 32w, /_next/image?url=%2Farticle%2Farticle1.webp&w=48&q=75 48w, /_next/image?url=%2Farticle%2Farticle1.webp&w=64&q=75 64w, /_next/image?url=%2Farticle%2Farticle1.webp&w=96&q=75 96w, /_next/image?url=%2Farticle%2Farticle1.webp&w=128&q=75 128w, /_next/image?url=%2Farticle%2Farticle1.webp&w=256&q=75 256w, /_next/image?url=%2Farticle%2Farticle1.webp&w=384&q=75 384w, /_next/image?url=%2Farticle%2Farticle1.webp&w=640&q=75 640w, /_next/image?url=%2Farticle%2Farticle1.webp&w=750&q=75 750w, /_next/image?url=%2Farticle%2Farticle1.webp&w=828&q=75 828w, /_next/image?url=%2Farticle%2Farticle1.webp&w=1080&q=75 1080w, /_next/image?url=%2Farticle%2Farticle1.webp&w=1200&q=75 1200w, /_next/image?url=%2Farticle%2Farticle1.webp&w=1920&q=75 1920w, /_next/image?url=%2Farticle%2Farticle1.webp&w=2048&q=75 2048w, /_next/image?url=%2Farticle%2Farticle1.webp&w=3840&q=75 3840w"
               style="color: transparent;"
               width="311"
             />
@@ -973,8 +975,9 @@ inform, and inspire.
               decoding="async"
               height="140"
               loading="lazy"
-              src="/_next/image?url=%2Farticle%2Farticle2.webp&w=640&q=75"
-              srcset="/_next/image?url=%2Farticle%2Farticle2.webp&w=384&q=75 1x, /_next/image?url=%2Farticle%2Farticle2.webp&w=640&q=75 2x"
+              sizes="(min-width: 1440px) 255px, (min-width: 1140px) 323px, (min-width: 840px) calc(26.43vw + 27px), (min-width: 580px) calc(50vw - 39px), calc(95.38vw - 38px)"
+              src="/_next/image?url=%2Farticle%2Farticle2.webp&w=3840&q=75"
+              srcset="/_next/image?url=%2Farticle%2Farticle2.webp&w=16&q=75 16w, /_next/image?url=%2Farticle%2Farticle2.webp&w=32&q=75 32w, /_next/image?url=%2Farticle%2Farticle2.webp&w=48&q=75 48w, /_next/image?url=%2Farticle%2Farticle2.webp&w=64&q=75 64w, /_next/image?url=%2Farticle%2Farticle2.webp&w=96&q=75 96w, /_next/image?url=%2Farticle%2Farticle2.webp&w=128&q=75 128w, /_next/image?url=%2Farticle%2Farticle2.webp&w=256&q=75 256w, /_next/image?url=%2Farticle%2Farticle2.webp&w=384&q=75 384w, /_next/image?url=%2Farticle%2Farticle2.webp&w=640&q=75 640w, /_next/image?url=%2Farticle%2Farticle2.webp&w=750&q=75 750w, /_next/image?url=%2Farticle%2Farticle2.webp&w=828&q=75 828w, /_next/image?url=%2Farticle%2Farticle2.webp&w=1080&q=75 1080w, /_next/image?url=%2Farticle%2Farticle2.webp&w=1200&q=75 1200w, /_next/image?url=%2Farticle%2Farticle2.webp&w=1920&q=75 1920w, /_next/image?url=%2Farticle%2Farticle2.webp&w=2048&q=75 2048w, /_next/image?url=%2Farticle%2Farticle2.webp&w=3840&q=75 3840w"
               style="color: transparent;"
               width="311"
             />
@@ -1021,8 +1024,9 @@ inform, and inspire.
               decoding="async"
               height="140"
               loading="lazy"
-              src="/_next/image?url=%2Farticle%2Farticle3.webp&w=640&q=75"
-              srcset="/_next/image?url=%2Farticle%2Farticle3.webp&w=384&q=75 1x, /_next/image?url=%2Farticle%2Farticle3.webp&w=640&q=75 2x"
+              sizes="(min-width: 1440px) 255px, (min-width: 1140px) 323px, (min-width: 840px) calc(26.43vw + 27px), (min-width: 580px) calc(50vw - 39px), calc(95.38vw - 38px)"
+              src="/_next/image?url=%2Farticle%2Farticle3.webp&w=3840&q=75"
+              srcset="/_next/image?url=%2Farticle%2Farticle3.webp&w=16&q=75 16w, /_next/image?url=%2Farticle%2Farticle3.webp&w=32&q=75 32w, /_next/image?url=%2Farticle%2Farticle3.webp&w=48&q=75 48w, /_next/image?url=%2Farticle%2Farticle3.webp&w=64&q=75 64w, /_next/image?url=%2Farticle%2Farticle3.webp&w=96&q=75 96w, /_next/image?url=%2Farticle%2Farticle3.webp&w=128&q=75 128w, /_next/image?url=%2Farticle%2Farticle3.webp&w=256&q=75 256w, /_next/image?url=%2Farticle%2Farticle3.webp&w=384&q=75 384w, /_next/image?url=%2Farticle%2Farticle3.webp&w=640&q=75 640w, /_next/image?url=%2Farticle%2Farticle3.webp&w=750&q=75 750w, /_next/image?url=%2Farticle%2Farticle3.webp&w=828&q=75 828w, /_next/image?url=%2Farticle%2Farticle3.webp&w=1080&q=75 1080w, /_next/image?url=%2Farticle%2Farticle3.webp&w=1200&q=75 1200w, /_next/image?url=%2Farticle%2Farticle3.webp&w=1920&q=75 1920w, /_next/image?url=%2Farticle%2Farticle3.webp&w=2048&q=75 2048w, /_next/image?url=%2Farticle%2Farticle3.webp&w=3840&q=75 3840w"
               style="color: transparent;"
               width="311"
             />
@@ -1069,8 +1073,9 @@ inform, and inspire.
               decoding="async"
               height="140"
               loading="lazy"
-              src="/_next/image?url=%2Farticle%2Farticle4.webp&w=640&q=75"
-              srcset="/_next/image?url=%2Farticle%2Farticle4.webp&w=384&q=75 1x, /_next/image?url=%2Farticle%2Farticle4.webp&w=640&q=75 2x"
+              sizes="(min-width: 1440px) 255px, (min-width: 1140px) 323px, (min-width: 840px) calc(26.43vw + 27px), (min-width: 580px) calc(50vw - 39px), calc(95.38vw - 38px)"
+              src="/_next/image?url=%2Farticle%2Farticle4.webp&w=3840&q=75"
+              srcset="/_next/image?url=%2Farticle%2Farticle4.webp&w=16&q=75 16w, /_next/image?url=%2Farticle%2Farticle4.webp&w=32&q=75 32w, /_next/image?url=%2Farticle%2Farticle4.webp&w=48&q=75 48w, /_next/image?url=%2Farticle%2Farticle4.webp&w=64&q=75 64w, /_next/image?url=%2Farticle%2Farticle4.webp&w=96&q=75 96w, /_next/image?url=%2Farticle%2Farticle4.webp&w=128&q=75 128w, /_next/image?url=%2Farticle%2Farticle4.webp&w=256&q=75 256w, /_next/image?url=%2Farticle%2Farticle4.webp&w=384&q=75 384w, /_next/image?url=%2Farticle%2Farticle4.webp&w=640&q=75 640w, /_next/image?url=%2Farticle%2Farticle4.webp&w=750&q=75 750w, /_next/image?url=%2Farticle%2Farticle4.webp&w=828&q=75 828w, /_next/image?url=%2Farticle%2Farticle4.webp&w=1080&q=75 1080w, /_next/image?url=%2Farticle%2Farticle4.webp&w=1200&q=75 1200w, /_next/image?url=%2Farticle%2Farticle4.webp&w=1920&q=75 1920w, /_next/image?url=%2Farticle%2Farticle4.webp&w=2048&q=75 2048w, /_next/image?url=%2Farticle%2Farticle4.webp&w=3840&q=75 3840w"
               style="color: transparent;"
               width="311"
             />

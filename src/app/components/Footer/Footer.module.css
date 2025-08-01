@@ -119,7 +119,7 @@
 
   gap: var(--spacing-lg);
 
-  padding: var(--spacing-lg) 0;
+  padding: var(--spacing-lg);
   max-width: var(--breakpoint-lg);
   margin: 0 auto;
   width: 100%;
@@ -164,6 +164,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding: var(--spacing-lg);
   }
 }
 

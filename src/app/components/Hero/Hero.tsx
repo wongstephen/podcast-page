@@ -23,6 +23,8 @@ export default function Hero() {
             width={311}
             height={233.42}
             className={styles.heroImage}
+            sizes="(min-width: 1020px) 426px, (min-width: 480px) 466px, calc(95.63vw + 15px)"
+            priority
           />
         </div>
         {/* content */}
