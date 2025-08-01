@@ -65,6 +65,8 @@
   --spacing-sm: 8px;
   --spacing-md: 16px;
   --spacing-lg: 32px;
+  --spacing-xl: 48px;
+  --spacing-xxl: 72px;
 
   --transition-duration: 525ms; /* NO SPEC: taken from https://aircall.io/brand/ */
 }
