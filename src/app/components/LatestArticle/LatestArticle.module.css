@@ -20,6 +20,11 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .articleSectionTitle {
+    font-size: 1.875rem; /* 30px */
+    line-height: 2rem; /* 32px */
+  }
+
   .container {
     padding: unset;
   }
