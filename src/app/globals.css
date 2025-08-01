@@ -1,25 +1,23 @@
 @font-face {
   font-family: 'Fellix';
-  src: url('https://cdn.aircall.io/fonts/Fellix-Regular.otf') format('opentype');
+  src: url(../lib/fonts/fellix/Fellix-Regular.woff2) format('woff2');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Fellix';
-  src: url('https://cdn.aircall.io/fonts/Fellix-Medium.otf') format('opentype');
+  src: url(../lib/fonts/fellix/Fellix-Medium.woff2) format('woff2');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Fellix';
-  src: url('https://cdn.aircall.io/fonts/Fellix-SemiBold.otf')
-    format('opentype');
+  src: url(../lib/fonts/fellix/Fellix-SemiBold.woff2) format('woff2');
   font-weight: 600;
   font-style: normal;
 }
-
 :root {
   --color-green-500: #00b388; /* primary green - button, button-outline, play, search icon, articles tag */
   --color-green-500-alpha-15: #00b38826; /* play button bg with transparency */
