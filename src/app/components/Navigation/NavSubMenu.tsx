@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
 import Button from '@/lib/components/atoms/Button/Button';
@@ -9,6 +10,7 @@ import { DownArrowIcon } from '@/lib/components/atoms/Icons/DownArrowIcon';
 import { SearchIcon } from '@/lib/components/atoms/Icons/Search';
 
 import styles from './NavSubMenu.module.css';
+import { getDictionary } from '@/lib/utilities/dictionaries/dictionaries';
 
 type NavSubMenuProps = {
   handleSearchClick?: () => void;
@@ -19,6 +21,7 @@ export default function NavSubMenu({
 }: NavSubMenuProps) {
   // !important remove the default value of currentPath in prod. this is for dev only
   const currentPath = usePathname().split('/')[1] || 'podcast';
+  const dict = getDictionary('en');
 
   return (
     <div className={styles.subMenuWrapper}>
@@ -26,10 +29,11 @@ export default function NavSubMenu({
         <ul className={styles.subMenuList}>
           {subMenuLinks.map((link) => (
             <li key={link.title} className={styles.subMenuItem}>
-              <a
+              <Link
                 href={link.url}
                 className={styles.subMenuLink}
                 data-activelink={currentPath === link.key}
+                title={link.title}
               >
                 {link.title}
 
@@ -38,7 +42,7 @@ export default function NavSubMenu({
                     <DownArrowIcon />
                   </span>
                 )}
-              </a>
+              </Link>
             </li>
           ))}
         </ul>
@@ -48,7 +52,7 @@ export default function NavSubMenu({
         <Button
           appearance="transparent"
           className={styles.searchButton}
-          aria-label="Search"
+          aria-label={dict.common.search}
           onClick={handleSearchClick}
         >
           <SearchIcon className={styles.subMenuSearchIcon} aria-hidden="true" />
