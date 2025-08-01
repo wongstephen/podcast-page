@@ -18,7 +18,7 @@ export default function Hero() {
         <div className={styles.heroImageContainer}>
           {/* Note: The image path and specs should be provided by the cms */}
           <Image
-            src={`${process.env.PAGES_BASE_PATH || ''}"/hero-image.webp"`}
+            src={`${process.env.PAGES_BASE_PATH || ''}/hero-image.webp`}
             alt="The Power of Conversation"
             width={311}
             height={233.42}
