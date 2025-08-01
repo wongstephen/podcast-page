@@ -1,21 +1,37 @@
 'use client';
 
-import React, { useEffect } from 'react';
+import React from 'react';
 
 import { getDictionary } from '@/lib/utilities/dictionaries/dictionaries';
-import { podcasts } from '@/lib/mockData/podcast.json';
+import podcastData from '@/lib/mockData/podcast.json';
 import { sortByOptionType } from '@/lib/types/podcast';
+import { maxCardLength } from '@/lib/constants/podcasts';
 
 import Dropdown from './Dropdown';
 import PodcastCard from './PodcastCard';
 import styles from './LatestPodcast.module.css';
-import { maxCardLength } from '@/lib/constants/podcasts';
 
 export default function LatestPodcast() {
   const dict = getDictionary('en');
-  const initCards = Array.from({ length: maxCardLength }, (_, index) => (
-    <PodcastCard skeleton key={index} />
-  ));
+  const { podcasts } = podcastData;
+
+  const initCards = Array.from({ length: maxCardLength }).map((_, index) => {
+    if (podcasts[index]) {
+      return (
+        <PodcastCard
+          key={index}
+          title={podcasts[index].title}
+          image={podcasts[index].image}
+          date={podcasts[index].date}
+          duration={podcasts[index].duration}
+          episode={podcasts[index].episode}
+          season={podcasts[index].season}
+        />
+      );
+    }
+
+    return <PodcastCard skeleton key={index} />;
+  });
 
   const [cards, setCards] = React.useState<React.JSX.Element[]>(initCards);
 
@@ -56,11 +72,6 @@ export default function LatestPodcast() {
 
     addCardsToArray(sortedPodcasts);
   }
-
-  useEffect(() => {
-    addCardsToArray(podcasts);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
 
   return (
     <section className={styles.container}>
