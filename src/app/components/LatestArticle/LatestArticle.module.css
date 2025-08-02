@@ -19,12 +19,18 @@
   grid-template-columns: repeat(auto-fill, minmax(248px, 1fr));
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1024px) {
+  .container {
+    gap: 40px;
+  }
+
   .articleSectionTitle {
     font-size: 1.875rem; /* 30px */
     line-height: 2rem; /* 32px */
   }
+}
 
+@media screen and (min-width: 1440px) {
   .container {
     padding: unset;
   }
