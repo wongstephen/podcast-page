@@ -18,7 +18,7 @@ export default function ArticleCard({
     <Link href="">
       <div className={styles.articleCard}>
         <Image
-          src={`${process.env.PAGES_BASE_PATH || ''}${image}`}
+          src={image}
           alt={title}
           // Metadata for image should come from API
           width={311}
