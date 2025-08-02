@@ -13,6 +13,7 @@ import PodcastCard from './PodcastCard';
 import styles from './LatestPodcast.module.css';
 
 export default function LatestPodcast() {
+  console.log(process.env.NEXT_PUBLIC_PAGES_BASE_PATH);
   const dict = getDictionary('en');
   const { podcasts } = podcastData;
 
