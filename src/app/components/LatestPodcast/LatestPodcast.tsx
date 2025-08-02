@@ -1,11 +1,12 @@
 'use client';
 
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import { getDictionary } from '@/lib/utilities/dictionaries/dictionaries';
 import podcastData from '@/lib/mockData/podcast.json';
 import { sortByOptionType } from '@/lib/types/podcast';
 import { maxCardLength } from '@/lib/constants/podcasts';
+import { prefixImgPath } from '@/lib/utilities/prefixImgPath';
 
 import Dropdown from './Dropdown';
 import PodcastCard from './PodcastCard';
@@ -16,43 +17,32 @@ export default function LatestPodcast() {
   const { podcasts } = podcastData;
 
   const initCards = Array.from({ length: maxCardLength }).map((_, index) => {
-    if (podcasts[index]) {
-      return (
-        <PodcastCard
-          key={index}
-          title={podcasts[index].title}
-          image={podcasts[index].image}
-          date={podcasts[index].date}
-          duration={podcasts[index].duration}
-          episode={podcasts[index].episode}
-          season={podcasts[index].season}
-        />
-      );
-    }
-
-    return <PodcastCard skeleton key={index} />;
+    return <PodcastCard key={index} skeleton />;
   });
 
   const [cards, setCards] = React.useState<React.JSX.Element[]>(initCards);
 
   function addCardsToArray(podcastData: typeof podcasts) {
-    const newCards = [...initCards].map((_, index) => {
-      if (podcastData[index]) {
-        return (
-          <PodcastCard
-            key={index}
-            title={podcastData[index].title}
-            image={podcasts[index].image}
-            date={podcastData[index].date}
-            duration={podcastData[index].duration}
-            episode={podcastData[index].episode}
-            season={podcastData[index].season}
-          />
-        );
+    setCards(() => {
+      const newCard = [...initCards];
+
+      for (let i = 0; i < maxCardLength && i < podcastData.length; i++) {
+        if (podcastData[i]) {
+          newCard[i] = (
+            <PodcastCard
+              key={i}
+              title={podcastData[i].title}
+              image={prefixImgPath(podcastData[i].image)}
+              date={podcastData[i].date}
+              duration={podcastData[i].duration}
+              episode={podcastData[i].episode}
+              season={podcastData[i].season}
+            />
+          );
+        }
       }
-      return <PodcastCard key={index} skeleton />;
+      return newCard;
     });
-    setCards(newCards);
   }
 
   function sortByOption(option: sortByOptionType) {
@@ -72,6 +62,11 @@ export default function LatestPodcast() {
 
     addCardsToArray(sortedPodcasts);
   }
+
+  useEffect(() => {
+    addCardsToArray(podcasts);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   return (
     <section className={styles.container}>
