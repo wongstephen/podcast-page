@@ -6,7 +6,6 @@ import { PlayIcon } from '@/lib/components/atoms/Icons/PlayIcon';
 import { Podcast } from '@/lib/types/podcast';
 import { cn } from '@/lib/utilities/cn';
 import { PlayTriangleIcon } from '@/lib/components/atoms/Icons/PlayTriangleIcon';
-import { prefixImgPath } from '@/lib/utilities/prefixImgPath';
 
 type PodcastCardProps =
   | { skeleton: true }
@@ -41,7 +40,7 @@ export default function PodcastCard(props: PodcastCardProps) {
     <div className={cn(styles.container, styles.content, className)}>
       <div className={cn(styles.imageWrapper)}>
         <Image
-          src={prefixImgPath(image)}
+          src={image}
           alt={title}
           fill
           sizes="(min-width: 1020px) 426px, (min-width: 480px) 466px, calc(95.63vw + 15px)"
