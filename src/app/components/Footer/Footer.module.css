@@ -166,6 +166,16 @@
     align-items: center;
     padding: var(--spacing-lg);
   }
+
+  .footerLinkGroup {
+    padding-inline: unset;
+    gap: 1rem;
+    flex: 1 1 0;
+  }
+
+  .footerLinksList {
+    gap: 16px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
