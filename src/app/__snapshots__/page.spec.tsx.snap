@@ -705,6 +705,7 @@ inform, and inspire.
             >
               <img
                 alt="The Data-Driven Way to Put Customers First"
+                class="image"
                 data-nimg="fill"
                 decoding="async"
                 loading="lazy"
@@ -790,6 +791,7 @@ inform, and inspire.
             >
               <img
                 alt="What Is Interactive Voice Response"
+                class="image"
                 data-nimg="fill"
                 decoding="async"
                 loading="lazy"
@@ -1561,11 +1563,13 @@ inform, and inspire.
           <ul
             class="legalLinks"
           >
-            <p
-              class="copyright"
-            >
-              © Aircall
-            </p>
+            <li>
+              <p
+                class="copyright"
+              >
+                © Aircall
+              </p>
+            </li>
             <li>
               <a
                 class="legalLink"

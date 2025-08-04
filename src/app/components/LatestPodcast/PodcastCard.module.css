@@ -26,11 +26,17 @@
   opacity: 0.5;
 }
 
+.image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
 .imageWrapper {
   position: relative;
-  width: 100%;
   aspect-ratio: 1;
   border-radius: var(--border-radius-lg);
+  overflow: hidden;
 }
 
 .imageWrapper::after {
@@ -87,8 +93,6 @@
   display: flex;
   flex-direction: column;
   gap: var(--spacing-md);
-
-  height: 100%;
 }
 
 .episodeInfo {
