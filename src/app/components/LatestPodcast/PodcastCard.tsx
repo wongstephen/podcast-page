@@ -42,6 +42,7 @@ export default function PodcastCard(props: PodcastCardProps) {
         <Image
           src={image}
           alt={title}
+          className={styles.image}
           fill
           sizes="(min-width: 1020px) 426px, (min-width: 480px) 466px, calc(95.63vw + 15px)"
         />

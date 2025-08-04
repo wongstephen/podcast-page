@@ -52,9 +52,11 @@ export default function Footer() {
         </div>
         <div className={styles.footerLegal}>
           <ul className={styles.legalLinks}>
-            <p className={styles.copyright}>
-              {dict.common.footer.banner.copyright}
-            </p>
+            <li>
+              <p className={styles.copyright}>
+                {dict.common.footer.banner.copyright}
+              </p>
+            </li>
             {legal.map((item, index) => (
               <li key={index}>
                 <a href={item.url} className={styles.legalLink}>
