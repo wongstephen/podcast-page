@@ -11,6 +11,7 @@ import { prefixImgPath } from '@/lib/utilities/prefixImgPath';
 import Dropdown from './Dropdown';
 import PodcastCard from './PodcastCard';
 import styles from './LatestPodcast.module.css';
+import Button from '@/lib/components/atoms/Button/Button';
 
 export default function LatestPodcast() {
   const dict = getDictionary('en');
@@ -22,11 +23,18 @@ export default function LatestPodcast() {
 
   const [cards, setCards] = React.useState<React.JSX.Element[]>(initCards);
 
+  // new card state
+  const [paginatedCard, setPaginatedCard] =
+  React.useState<React.JSX.Element[]>(initCards);
+  
+  // state to track page
+  const [page, setPage] = React.useState(0);
+
   function addCardsToArray(podcastData: typeof podcasts) {
     setCards(() => {
       const newCard = [...initCards];
 
-      for (let i = 0; i < maxCardLength && i < podcastData.length; i++) {
+      for (let i = 0; i < podcastData.length; i++) {
         if (podcastData[i]) {
           newCard[i] = (
             <PodcastCard
@@ -63,10 +71,31 @@ export default function LatestPodcast() {
     addCardsToArray(sortedPodcasts);
   }
 
+  function handleNextFourClick() {
+    // what is the current selection of cards
+    // what is the next 4 podcast
+
+    setPage((prevPage) => prevPage + 1);
+
+    console.log('clicked');
+  }
+
   useEffect(() => {
     addCardsToArray(podcasts);
+
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  useEffect(() => {
+    setPaginatedCard(() =>
+      cards.slice(page * maxCardLength, (page + 1) * maxCardLength)
+    );
+  }, [page, cards]);
+
+  // for debuggin
+  // useEffect(() => {
+  //   console.log(paginatedCard);
+  // }, [paginatedCard]);
 
   return (
     <section className={styles.container}>
@@ -76,11 +105,12 @@ export default function LatestPodcast() {
       </div>
       {/* article list */}
       <div className={styles.cardContainer}>
-        {cards.map((card, index) => (
+        {paginatedCard.map((card, index) => (
           <article key={index} className={styles.card}>
             {card}
           </article>
         ))}
+        <Button onClick={handleNextFourClick}>Next Four</Button>
       </div>
     </section>
   );

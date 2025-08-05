@@ -12,10 +12,100 @@
     {
       "id": 2,
       "title": "What Is Interactive Voice Response",
-      "duration": 32,
+      "duration": 28,
       "season": 1,
       "episode": 2,
       "date": "2025-01-08T10:00:00Z",
+      "image": "/podcast/podcast2.webp"
+    },
+    {
+      "id": 3,
+      "title": "The Future of AI in Customer Service",
+      "duration": 35,
+      "season": 1,
+      "episode": 3,
+      "date": "2025-01-15T10:00:00Z",
+      "image": "/podcast/podcast1.webp"
+    },
+    {
+      "id": 4,
+      "title": "How to Build a High-Performing Sales Team",
+      "duration": 45,
+      "season": 1,
+      "episode": 4,
+      "date": "2025-01-22T10:00:00Z",
+      "image": "/podcast/podcast2.webp"
+    },
+    {
+      "id": 5,
+      "title": "The Psychology of Customer Retention",
+      "duration": 38,
+      "season": 1,
+      "episode": 5,
+      "date": "2025-01-29T10:00:00Z",
+      "image": "/podcast/podcast1.webp"
+    },
+    {
+      "id": 6,
+      "title": "Scaling Your Business with Cloud Communications",
+      "duration": 50,
+      "season": 1,
+      "episode": 6,
+      "date": "2025-02-05T10:00:00Z",
+      "image": "/podcast/podcast2.webp"
+    },
+    {
+      "id": 7,
+      "title": "The Rise of Conversational AI",
+      "duration": 31,
+      "season": 1,
+      "episode": 7,
+      "date": "2025-02-12T10:00:00Z",
+      "image": "/podcast/podcast1.webp"
+    },
+    {
+      "id": 8,
+      "title": "Data Security in the Cloud",
+      "duration": 42,
+      "season": 1,
+      "episode": 8,
+      "date": "2025-02-19T10:00:00Z",
+      "image": "/podcast/podcast2.webp"
+    },
+    {
+      "id": 9,
+      "title": "The Art of the Sales Call",
+      "duration": 25,
+      "season": 1,
+      "episode": 9,
+      "date": "2025-02-26T10:00:00Z",
+      "image": "/podcast/podcast1.webp"
+    },
+    {
+      "id": 10,
+      "title": "Customer Feedback: The Ultimate Growth Engine",
+      "duration": 33,
+      "season": 1,
+      "episode": 10,
+      "date": "2025-03-05T10:00:00Z",
+      "image": "/podcast/podcast2.webp"
+    },
+    {
+      "id": 11,
+      "title": "From Startup to Scale-up: A Founder's Journey",
+      "duration": 55,
+      "season": 1,
+      "episode": 11,
+      "date": "2025-03-12T10:00:00Z",
+      "image": "/podcast/podcast1.webp"
+    },
+    {
+      "id": 12,
+      "title": "The Power of Positive Customer Experiences",
+      "duration": 37,
+      "season": 1,
+      "episode": 12,
+      "date": "2025-03-19T10:00:00Z",
       "image": "/podcast/podcast2.webp"
     }
   ]
