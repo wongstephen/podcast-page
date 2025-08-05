@@ -69,7 +69,7 @@ export default function LatestPodcast() {
   }, []);
 
   return (
-    <section className={styles.container}>
+    <section className={styles.container} aria-live="polite">
       <div className={styles.header}>
         <h2 className={styles.title}>{dict.home.latestReleases.title}</h2>
         <Dropdown sortByOption={sortByOption} />
@@ -85,3 +85,4 @@ export default function LatestPodcast() {
     </section>
   );
 }
+  
