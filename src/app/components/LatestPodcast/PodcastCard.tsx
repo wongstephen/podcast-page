@@ -6,6 +6,7 @@ import { PlayIcon } from '@/lib/components/atoms/Icons/PlayIcon';
 import { Podcast } from '@/lib/types/podcast';
 import { cn } from '@/lib/utilities/cn';
 import { PlayTriangleIcon } from '@/lib/components/atoms/Icons/PlayTriangleIcon';
+import Link from 'next/link';
 
 type PodcastCardProps =
   | { skeleton: true }
@@ -37,35 +38,37 @@ export default function PodcastCard(props: PodcastCardProps) {
 
   const { title, image, duration, season, episode, className } = props;
   return (
-    <div className={cn(styles.container, styles.content, className)}>
-      <div className={cn(styles.imageWrapper)}>
-        <Image
-          src={image}
-          alt={title}
-          className={styles.image}
-          fill
-          sizes="(min-width: 1020px) 426px, (min-width: 480px) 466px, calc(95.63vw + 15px)"
-        />
-        <div className={styles.overlayWrapper}>
-          <div className={styles.overlayCircle} />
-          <PlayTriangleIcon className={styles.overlayIcon} />
+    <Link href="#" title={title}>
+      <div className={cn(styles.container, styles.content, className)}>
+        <div className={cn(styles.imageWrapper)}>
+          <Image
+            src={image}
+            alt={title}
+            className={styles.image}
+            fill
+            sizes="(min-width: 1020px) 426px, (min-width: 480px) 466px, calc(95.63vw + 15px)"
+          />
+          <div className={styles.overlayWrapper}>
+            <div className={styles.overlayCircle} />
+            <PlayTriangleIcon className={styles.overlayIcon} />
+          </div>
         </div>
-      </div>
-      <div className={styles.content}>
-        <p className={styles.episodeInfo}>
-          {dict.home.latestReleases.abbreviation.season}
-          {season.toString().padStart(2, '0')}{' '}
-          {dict.home.latestReleases.abbreviation.episode}
-          {episode.toString().padStart(2, '0')} | {duration}{' '}
-          {dict.home.latestReleases.abbreviation.minutes}
-        </p>
-        <h3 className={styles.title}>{title}</h3>
+        <div className={styles.content}>
+          <p className={styles.episodeInfo}>
+            {dict.home.latestReleases.abbreviation.season}
+            {season.toString().padStart(2, '0')}{' '}
+            {dict.home.latestReleases.abbreviation.episode}
+            {episode.toString().padStart(2, '0')} | {duration}{' '}
+            {dict.home.latestReleases.abbreviation.minutes}
+          </p>
+          <h3 className={styles.title}>{title}</h3>
 
-        <div className={styles.listenNow}>
-          <PlayIcon className={styles.playIcon} />
-          {dict.common.listenNow}
+          <div className={styles.listenNow}>
+            <PlayIcon className={styles.playIcon} />
+            {dict.common.listenNow}
+          </div>
         </div>
       </div>
-    </div>
+    </Link>
   );
 }

@@ -44,7 +44,7 @@ function Dropdown({
     } else {
       document.removeEventListener('mousedown', handleClickOutside);
     }
-    
+
     return () => {
       document.removeEventListener('mousedown', handleClickOutside);
     };
@@ -64,6 +64,7 @@ function Dropdown({
               key={option}
               onClick={() => handleOptionClick(option as sortByOptionType)}
               className={styles.dropdownListItem}
+              tabIndex={0}
             >
               {dropdownOptionsMap[option as sortByOptionType]}
             </li>
