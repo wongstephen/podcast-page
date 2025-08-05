@@ -657,6 +657,7 @@ inform, and inspire.
       </div>
     </div>
     <section
+      aria-live="polite"
       class="container"
     >
       <div
